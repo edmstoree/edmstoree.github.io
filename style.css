@@ -1,0 +1,75 @@
+/* style nama  */
+
+body {
+    overflow-x: hidden;
+}
+
+.baju {
+    font-family: 'Exo', sans-serif;
+    font-size: 22px;
+    margin-top: 12px;
+    font-weight: bold;
+    margin-left: -5px;
+}
+
+.jamtangan {
+    font-family: 'Exo', sans-serif;
+    margin-top: 10px;
+    font-weight: 550px;
+    font-weight: bold;
+    margin-left: -28px;
+    font-size: 21px;
+    width: 120px;
+}
+
+.headset {
+    font-family: 'Exo', sans-serif;
+    margin-top: 10px;
+    margin-left: 2px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.sepatu {
+    margin-top: 14px;
+    margin-left: 16px;
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.alat-tulis {
+    margin-left: 10px;
+    width: 150px;
+    margin-top: 4px;
+    font-family: 'Exo', sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.tas {
+    margin-left: 18px;
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/* stle hover */
+
+.iconsproduct:hover {
+    scale: 1.05;
+}
+
+
+/* responsiff my css */
+
+@media only screen and (max-width:720px) {
+    .sepatu {
+        margin-top: 10px;
+        margin-left: 13px;
+        font-family: 'Exo', sans-serif;
+        font-weight: 900;
+        font-size: 19px;
+    }
+}
