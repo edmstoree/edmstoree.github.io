@@ -7,9 +7,10 @@ body {
 .baju {
     font-family: 'Exo', sans-serif;
     font-size: 22px;
-    margin-top: 12px;
+    margin-top: 15px;
     font-weight: bold;
     margin-left: -5px;
+    width: 120px;
 }
 
 .jamtangan {
@@ -39,7 +40,7 @@ body {
 }
 
 .alat-tulis {
-    margin-left: 10px;
+    margin-left: 29px;
     width: 150px;
     margin-top: 4px;
     font-family: 'Exo', sans-serif;
@@ -52,6 +53,15 @@ body {
     font-family: 'Exo', sans-serif;
     font-weight: bold;
     font-size: 20px;
+}
+
+.tass {
+    margin-top: 4px;
+}
+
+.bajuu {
+    margin-left: 25px;
+    margin-top: 1px;
 }
 
 
@@ -67,9 +77,21 @@ body {
 @media only screen and (max-width:720px) {
     .sepatu {
         margin-top: 10px;
-        margin-left: 13px;
+        margin-left: 10px;
         font-family: 'Exo', sans-serif;
         font-weight: 900;
         font-size: 19px;
+    }
+    .bajuu {
+        margin-left: 14px;
+    }
+    .jamm {
+        margin-left: 10px;
+    }
+    .jamtangan {
+        margin-left: -13px;
+    }
+    .alat-tulis {
+        margin-left: 17px;
     }
 }
