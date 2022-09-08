@@ -18,7 +18,6 @@ body {
 /* container-home */
 
 .container-home {
-    width: 1400px;
     height: 700px;
     background-color: #FDEEDC;
     position: relative;
@@ -99,7 +98,6 @@ body {
 
 .container-content-1 {
     background-color: #FFD8A9;
-    width: 1400px;
     height: 800px;
     position: relative;
     overflow-x: hidden;
@@ -251,7 +249,6 @@ body {
 .container-content-3 {
     height: 920px;
     background-color: #F1A661;
-    width: 1400px;
     position: relative;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -379,6 +376,7 @@ body {
 @media only screen and (max-width: 700px) {
     .container-home {
         height: 900px;
+        overflow-x: hidden;
     }
     .gambar-1 img {
         width: 750px;
@@ -529,6 +527,7 @@ body {
 @media only screen and (max-width: 420px) {
     .container-content-1 {
         height: 1200px;
+        overflow-x: hidden;
     }
     .ket-1 {
         font-size: 20px;
