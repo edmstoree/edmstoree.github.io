@@ -1,816 +1,171 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
-<head style="background-color:black;">
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-    <!-- my style -->
-    <link rel="stylesheet" href="style.css">
+    <!-- my style css -->
+    <link href="style.css" rel="stylesheet">
 
     <!-- link font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,300&family=Kanit:wght@200&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
 
-    <title>edmstoree</title>
-    <link rel="icon" href="https://img.freepik.com/premium-vector/planet-cute-cartoon-galaxy-space-solar-system-elements-isolated-design-elements-children-stickers-labels-icons-infographics-kids-vector-hand-draw-illustration_501069-2014.jpg">
+    <!-- link animasi muncul content -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
+    <!-- container home -->
+    <div class="container-home">
 
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-        <div class="container">
-            <a class="navbar-brand" href="https://www.instagram.com/edm___store/">edm____storee</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#product">product</a>
-                    </li>
-                </ul>
+        <!-- gambar -->
+        <div class="gambar-1">
+            <img src="aset/gambar-1.png" alt="">
+        </div>
+        <p class="ket-1" data-aos="fade-right" data-aos-duration="2000">
+            Welcome to edm_storee website Have a nice day and happy shopping
+        </p>
+
+        <!-- judul -->
+        <p class="header" data-aos="fade-right" data-aos-duration="1500">
+            EDM_STORE
+        </p>
+
+        <!-- kotak-keterangan -->
+        <div class="kotak-1"></div>
+        <div class="kotak-2"></div>
+
+        <!-- icons -->
+        <div class="icon-instagram">
+            <a href="https://www.instagram.com/edm___store/?hl=id">
+                <ion-icon name="logo-instagram" class="instagram-1" data-aos="fade-up" data-aos-duration="600"></ion-icon>
+            </a>
+        </div>
+        <div class="icon-facebook">
+            <a href="https://www.facebook.com/iya.tidak.7731/">
+                <ion-icon name="logo-facebook" class="facebook-1" data-aos="fade-up" data-aos-duration="600"></ion-icon>
+            </a>
+        </div>
+
+    </div>
+
+    <!-- container-content-2 -->
+    <div class="container-content-1">
+        <div id="scene">
+            <div data-depth="0.1">
+                <img src="aset/burger.png" alt="" class="burger">
+            </div>
+            <div data-depth="0.2">
+                <img src="aset/drink.png" alt="" class="drink">
+            </div>
+            <div data-depth="0.1">
+                <img src="aset/keju.png" alt="" class="keju">
+            </div>
+            <div data-depth="0.1">
+                <img src="aset/belanjaan.png" alt="" class="belanjaan">
+            </div>
+            <div data-depth="0.01">
+                <img src="aset/instagram help.png" alt="" class="help">
             </div>
         </div>
-    </nav>
-    <!-- end navbar -->
 
-    <!-- carausel one -->
-    <div class="container mt-2 ">
-        <div class="row ">
-            <div class="col ">
-                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <a href="https://shopee.co.id/m/9-9-super-spay-deals#SG">
-                                <img src="iklan/iklan7.jpg" class="d-block w-100" alt="...">
-                            </a>
-                        </div>
-                        <div class="carousel-item">
-                            <a href="https://shopee.co.id/m/9-9-super-spay-deals#SG">
-                                <img src="iklan/iklan5.jpg" class="d-block w-100" alt="...">
-                            </a>
-                        </div>
-                        <div class="carousel-item">
-                            <a href="https://shopee.co.id/collections/1214025/">
-                                <img src="iklan/iklan6.jpg" class="d-block w-100" alt="...">
-                            </a>
-                        </div>
-                        <div class="carousel-item">
-                            <a href="https://shopee.co.id/m/voucher-pengguna-baru">
-                                <img src="iklan/iklan4.jpg" class="d-block w-100" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
+        <!-- ket-2 -->
+        <p class="ket-2" data-aos="fade-up" data-aos-duration="600">
+            Masih bingung milih barang pada saat belanja online ?
+        </p>
+        <p class="ket-3" data-aos="fade-up" data-aos-duration="600">
+            Tenang EDM_STOREE akan bantu kamu milih barang dengan harga terjangkau dan kualitas terbaik pastinya,jadi kamu tidak perlu khawatir lagi dengan masalah barang karna kami selalu memperhartikan ratting toko dan product yang kami afiiliasikan tentu nya jadi
+            kamu tidak pelu khawatir
+        </p>
+        <p class="ket-4" data-aos="fade-up" data-aos-duration="600">
+            Cara Komplain jika pesanan tidak sesuai
+        </p>
+
+        <!-- icons logo platfrom -->
+        <div class="tokopedia">
+            <a href="https://www.tokopedia.com/help/article/st-0171-barang-sudah-diterima-namun-produk-berkendala">
+                <img src="aset/tokopedia-webiste.png" alt="" data-aos="fade-up" data-aos-duration="600">
+            </a>
+        </div>
+        <div class="shopee">
+            <a href="https://help.shopee.co.id/portal/article/72582-[Pengembalian-Barang%2FDana]-Apa-saja-dokumen-pendukung-yang-dapat-saya-kirimkan-untuk-bukti-pengajuan-pengembalian-barang%2Fdana-saya?previousPage=secondary%20category">
+                <img src="aset/shoope webiste.png" alt="" data-aos="fade-up" data-aos-duration="600">
+            </a>
+        </div>
+
+        <!-- link toko -->
+        <div class="tokopedia-1" data-aos="fade-right" data-aos-duration="600">
+            <img src="aset/tokopedia-webiste.png" alt="" class="tokopedia-2">
+            <a href="website tokopedia/index.html" class="toko-1">TOKOPEDIA</a>
+        </div>
+        <div class="shopee-1" data-aos="fade-right" data-aos-duration="600">
+            <img src="aset/shoope webiste.png" alt="" class="shopee-2">
+            <a href="webiste shopee/index.html" class="toko-2">SHOPEE</a>
         </div>
     </div>
+
+    <!-- container-content-3 -->
+    <div class="container-content-3">
+        <p class="ket-5">
+            Ingin berkontribusi di website EDM_STOREE
+        </p>
+
+        <!-- icon kontribusi -->
+        <div class="icon-contribusi">
+            <div class="box-1">
+                <a href="" class="a1">Product</a>
+            </div>
+            <ion-icon name="shirt" class="baju-1" data-aos="fade-up" data-aos-duration="600"></ion-icon>
+            <div class="box-2">
+                <a href="https://github.com/edmstoree" class="a2">Website</a>
+            </div>
+            <ion-icon name="logo-github" class="github-1" data-aos="fade-up" data-aos-duration="600"></ion-icon>
+            <div class="box-3">
+                <a href="https://www.figma.com/file/F137l9PuDg9gZS7EAt2m0N/Websiite-Storee?node-id=0%3A1" class="a3">Design</a>
+            </div>
+            <ion-icon name="color-palette" class="warna" data-aos="fade-up" data-aos-duration="600"></ion-icon>
+        </div>
+
+        <!-- paralax-2 -->
+        <div id="scene-1">
+            <div data-depth="0.2">
+                <img src="aset/orang-1.png" alt="" class="orang">
+            </div>
+            <div data-depth="0.10">
+                <img src="aset/surat.png" alt="" class="surat-1">
+            </div>
+            <div data-depth="0.4">
+                <img src="aset/surat.png" alt="" class="surat-2">
+            </div>
+            <div data-depth="0.3">
+                <img src="aset/surat.png" alt="" class="surat-3">
+            </div>
+        </div>
+
     </div>
-    <!-- end carausel one -->
 
-    <!-- tukusan katergori -->
-    <section id="product">
-        <div class="container ">
-            <div class="row mt-5 ">
-                <div class="col ">
-                    <h2 style="font-family: 'IBM Plex Mono', monospace; ">KATEGORI</h2>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end tulusan kategori -->
+    <!-- script icons -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 
-    <!-- icons -->
-    <div class="container ">
-        <div class="row mt-3 justify-content-evenly offset-1 ">
-            <div class="col-4 iconsproduct col-md-1 baju-1 ">
-                <a href="#alattulis" style="color: black; text-decoration: none; "><img src="aset/alat-tulis.png " alt=" " style="width: 90px; ">
-                    <p class="baju">alat-tulis</p>
-                </a>
-            </div>
-            <div class="col-4 iconsproduct col-md-1 mt-1 jamtangan-1 ">
-                <a href="#jamtangan" style="color: black; text-decoration: none; "><img src="aset/jamtangan.png " alt=" " class="jamm " style="width:60px; ">
-                    <p class="jamtangan ">Jam tangan</p>
-                </a>
-            </div>
-            <div class="col-4 iconsproduct col-md-1 mt-2 headset-1 ">
-                <a href="#headset" style="color:black;text-decoration:none; "><img src="aset/headset.png " alt=" " style="width: 80px; ">
-                    <p class="headset ">Headset</p>
-                </a>
-            </div>
-            <div class="col-4 iconsproduct col-md-1 mt-3 sepatu-1 ">
-                <a href="#sepatu" style="color: black; text-decoration:none; "><img src="aset/sepatu.png " alt=" " class="sepatuu" style="width: 90px; ">
-                    <p class="sepatu ">Sepatu</p>
-                </a>
-            </div>
-            <div class="col-4 iconsproduct col-md-1 mt-2 buku ">
-                <a href="#baju" style="color:black;text-decoration:none; "><img src="aset/baju.png " alt=" " class="bajuu" style="width: 45px; ">
-                    <p class="alat-tulis">baju</p>
-                </a>
-            </div>
-            <div class="col-4 iconsproduct col-md-1 mt-2 ts ">
-                <a href="#tas" style="color:black;text-decoration:none; "><img src="aset/tas.png " alt=" " class="tass" style="width:70px; ">
-                    <p class="tas">Tas</p>
-                </a>
-            </div>
-        </div>
-    </div>
-    <!-- ends icons -->
-
-    <!-- headset-->
-    <section id="headset">
-        <div class="container ">
-            <div class="row mt-5 ">
-                <div class="col ">
-                    <h2 style="font-family: 'IBM Plex Mono', monospace; ">Headset</h2>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end headset-->
-
-    <!-- card product -->
-    <div class="container ">
-        <div class="row mt-2 ">
-            <div class="col-6 col-md-3 ">
-                <div class="card ">
-                    <img src="aset/headset.png " class="card-img-top " alt="... ">
-                    <div class="card-body ">
-                        <p class="card-text ">Some quick example text to build content.</p>
-                        <p>
-                            <ion-icon name="star-outline"></ion-icon>
-                            <ion-icon name="star-outline"></ion-icon>
-                            <ion-icon name="star-outline"></ion-icon>
-                            <ion-icon name="star-outline"></ion-icon>
-                            <ion-icon name="star-outline"></ion-icon>
-                        </p>
-                        <a href="#" class="btn btn-primary " style="font-size: 14px; ">
-                            Buy
-                        </a>
-                        <a href="# " class="btn btn-danger " style="font-size: 14px; ">
-                            Rp 40.000
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 col-md-3 ">
-                <div class="card ">
-                    <img src="aset/headset.png " class="card-img-top " alt="... ">
-                    <div class="card-body ">
-                        <p class="card-text ">Some quick example text to build content.</p>
-                        <p>
-                            <ion-icon name="star-outline"></ion-icon>
-                            <ion-icon name="star-outline"></ion-icon>
-                            <ion-icon name="star-outline"></ion-icon>
-                            <ion-icon name="star-outline"></ion-icon>
-                            <ion-icon name="star-outline"></ion-icon>
-                        </p>
-                        <a href="# " class="btn btn-primary " style="font-size: 14px; ">
-                          Buy
-                        </a>
-                        <a href="# " class="btn btn-danger " style="font-size: 14px; ">
-                            Rp 33.000
-                        </a>
+    <!-- paralax-2 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script>
+        var scene = document.getElementById('scene');
+        var parallaxInstance = new Parallax(scene, {
+            relativeInput: true
+        });
+    </script>
 
 
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 col-md-3 ">
-                <div class="card ">
-                    <img src="aset/headset.png " class="card-img-top " alt="... ">
-                    <div class="card-body ">
-                        <p class="card-text ">Some quick example text to build content.</p>
-                        <p>
-                            <ion-icon name="star-outline"></ion-icon>
-                            <ion-icon name="star-outline"></ion-icon>
-                            <ion-icon name="star-outline"></ion-icon>
-                            <ion-icon name="star-outline"></ion-icon>
-                            <ion-icon name="star-outline"></ion-icon>
-                        </p>
-                        <a href="# " class="btn btn-primary " style="font-size: 14px; ">
-                          Buy
-                        </a>
-                        <a href="# " class="btn btn-danger " style="font-size: 14px; ">
-                            Rp 33.000
-                        </a>
-
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 col-md-3 ">
-                <div class="card ">
-                    <img src="aset/headset.png " class="card-img-top " alt="... ">
-                    <div class="card-body ">
-                        <p class="card-text ">Some quick example text to build content.</p>
-                        <p>
-                            <ion-icon name="star-outline"></ion-icon>
-                            <ion-icon name="star-outline"></ion-icon>
-                            <ion-icon name="star-outline"></ion-icon>
-                            <ion-icon name="star-outline"></ion-icon>
-                            <ion-icon name="star-outline"></ion-icon>
-                        </p>
-                        <a href="# " class="btn btn-primary " style="font-size: 14px; ">
-                          Buy
-                        </a>
-                        <a href="# " class="btn btn-danger " style="font-size: 14px; ">
-                            Rp 33.000
-                        </a>
-
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ed card product -->
-
-    <!-- sepatu -->
-    <section id="sepatu">
-        <div class="container ">
-            <div class="row mt-5 ">
-                <div class="col ">
-                    <h2 style="font-family: 'IBM Plex Mono', monospace; ">Sepatu</h2>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end sepatu -->
-
-    <!-- card product -->
-    <div class="container ">
-        <div class="row mt-2 ">
-            <div class="col-6 col-md-3 ">
-                <div class="card ">
-                    <img src="aset/sepatu.png " class="card-img-top " alt="... ">
-                    <div class="card-body ">
-                        <p class="card-text ">Some quick example text to build content.</p>
-                        <p>
-                            <ion-icon name="star-outline"></ion-icon>
-                            <ion-icon name="star-outline"></ion-icon>
-                            <ion-icon name="star-outline"></ion-icon>
-                            <ion-icon name="star-outline"></ion-icon>
-                            <ion-icon name="star-outline"></ion-icon>
-                        </p>
-                        <a href="# " class="btn btn-primary " style="font-size: 14px; ">
-                          Buy
-                        </a>
-                        <a href="# " class="btn btn-danger " style="font-size: 14px; ">
-                            Rp 33.000
-                        </a>
-
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 col-md-3 ">
-                <div class="card ">
-                    <img src="aset/sepatu.png " class="card-img-top " alt="... ">
-                    <div class="card-body ">
-                        <p class="card-text ">Some quick example text to build content.</p>
-                        <p>
-                            <ion-icon name="star-outline"></ion-icon>
-                            <ion-icon name="star-outline"></ion-icon>
-                            <ion-icon name="star-outline"></ion-icon>
-                            <ion-icon name="star-outline"></ion-icon>
-                            <ion-icon name="star-outline"></ion-icon>
-                        </p>
-                        <a href="# " class="btn btn-primary " style="font-size: 14px; ">
-                          Buy
-                        </a>
-                        <a href="# " class="btn btn-danger " style="font-size: 14px; ">
-                            Rp 33.000
-                        </a>
-
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 col-md-3 ">
-                <div class="card ">
-                    <img src="aset/sepatu.png " class="card-img-top " alt="... ">
-                    <div class="card-body ">
-                        <p class="card-text ">Some quick example text to build content.</p>
-                        <p>
-                            <ion-icon name="star-outline"></ion-icon>
-                            <ion-icon name="star-outline"></ion-icon>
-                            <ion-icon name="star-outline"></ion-icon>
-                            <ion-icon name="star-outline"></ion-icon>
-                            <ion-icon name="star-outline"></ion-icon>
-                        </p>
-                        <a href="# " class="btn btn-primary " style="font-size: 14px; ">
-                          Buy
-                        </a>
-                        <a href="# " class="btn btn-danger " style="font-size: 14px; ">
-                            Rp 40.00
-                        </a>
-
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 col-md-3 ">
-                <div class="card ">
-                    <img src="aset/sepatu.png " class="card-img-top " alt="... ">
-                    <div class="card-body ">
-                        <p class="card-text ">Some quick example text to build content.</p>
-                        <p>
-                            <ion-icon name="star-outline"></ion-icon>
-                            <ion-icon name="star-outline"></ion-icon>
-                            <ion-icon name="star-outline"></ion-icon>
-                            <ion-icon name="star-outline"></ion-icon>
-                            <ion-icon name="star-outline"></ion-icon>
-                        </p>
-                        <a href="# " class="btn btn-primary " style="font-size: 14px; ">
-                          Buy
-                        </a>
-                        <a href="# " class="btn btn-danger " style="font-size: 14px; ">
-                            Rp 33.000
-                        </a>
-
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- end card product -->
-
-        <!-- baju -->
-        <section id="baju">
-            <div class="container ">
-                <div class="row mt-5 ">
-                    <div class="col ">
-                        <h2 style="font-family: 'IBM Plex Mono', monospace; ">Baju</h2>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end baju -->
-
-        <!-- card product -->
-        <div class="container ">
-            <div class="row mt-2 ">
-                <div class="col-6 col-md-3 ">
-                    <div class="card ">
-                        <img src="aset/baju.png " class="card-img-top " alt="... ">
-                        <div class="card-body ">
-                            <p class="card-text ">Some quick example text to build content.</p>
-                            <p>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                            </p>
-                            <a href="# " class="btn btn-primary " style="font-size: 14px; ">
-                              Buy
-                            </a>
-                            <a href="# " class="btn btn-danger " style="font-size: 14px; ">
-                            Rp 33.000
-                        </a>
-
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 ">
-                    <div class="card ">
-                        <img src="aset/baju.png " class="card-img-top " alt="... ">
-                        <div class="card-body ">
-                            <p class="card-text ">Some quick example text to build content.</p>
-                            <p>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                            </p>
-                            <a href="# " class="btn btn-primary " style="font-size: 14px; ">
-                              Buy
-                            </a>
-                            <a href="# " class="btn btn-danger " style="font-size: 14px; ">
-                            Rp 33.000
-                        </a>
-
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 ">
-                    <div class="card ">
-                        <img src="aset/baju.png " class="card-img-top " alt="... ">
-                        <div class="card-body ">
-                            <p class="card-text ">Some quick example text to build content.</p>
-                            <p>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                            </p>
-                            <a href="# " class="btn btn-primary " style="font-size: 14px; ">
-                              Buy
-                            </a>
-                            <a href="# " class="btn btn-danger " style="font-size: 14px; ">
-                            Rp 33.000
-                        </a>
-
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 ">
-                    <div class="card ">
-                        <img src="aset/baju.png " class="card-img-top " alt="... ">
-                        <div class="card-body ">
-                            <p class="card-text ">Some quick example text to build content.</p>
-                            <p>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                            </p>
-                            <a href="# " class="btn btn-primary " style="font-size: 14px; ">
-                              Buy
-                            </a>
-                            <a href="# " class="btn btn-danger " style="font-size: 14px; ">
-                            Rp 33.000
-                        </a>
-
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- end card product -->
-
-        <!-- tas -->
-        <section id="tas">
-            <div class="container ">
-                <div class="row mt-5 ">
-                    <div class="col ">
-                        <h2 style="font-family: 'IBM Plex Mono', monospace; ">Tas</h2>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end tas -->
-
-        <!-- card product -->
-        <div class="container">
-            <div class="row mt-2 ">
-                <div class="col-6 col-md-3 ">
-                    <div class="card ">
-                        <img src="aset/tas.png " class="card-img-top " alt="... ">
-                        <div class="card-body ">
-                            <p class="card-text ">Some quick example text to build content.</p>
-                            <p>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                            </p>
-                            <a href="# " class="btn btn-primary " style="font-size: 14px; ">
-                              Buy
-                            </a>
-                            <a href="# " class="btn btn-danger " style="font-size: 14px; ">
-                            Rp 33.000
-                        </a>
-
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 ">
-                    <div class="card ">
-                        <img src="aset/tas.png " class="card-img-top " alt="... ">
-                        <div class="card-body ">
-                            <p class="card-text ">Some quick example text to build content.</p>
-                            <p>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                            </p>
-                            <a href="# " class="btn btn-primary " style="font-size: 14px; ">
-                              Buy
-                            </a>
-                            <a href="# " class="btn btn-danger " style="font-size: 14px; ">
-                            Rp 33.000
-                        </a>
-
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 ">
-                    <div class="card ">
-                        <img src="aset/tas.png " class="card-img-top " alt="... ">
-                        <div class="card-body ">
-                            <p class="card-text ">Some quick example text to build content.</p>
-                            <p>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                            </p>
-                            <a href="# " class="btn btn-primary " style="font-size: 14px; ">
-                              Buy
-                            </a>
-                            <a href="# " class="btn btn-danger " style="font-size: 14px; ">
-                            Rp 33.000
-                        </a>
-
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 ">
-                    <div class="card ">
-                        <img src="aset/tas.png " class="card-img-top " alt="... ">
-                        <div class="card-body ">
-                            <p class="card-text ">Some quick example text to build content.</p>
-                            <p>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                            </p>
-                            <a href="# " class="btn btn-primary " style="font-size: 14px; ">
-                              Buy
-                            </a>
-                            <a href="# " class="btn btn-danger " style="font-size: 14px; ">
-                            Rp 33.000
-                        </a>
-
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- end card product -->
-
-        <!-- jamtangan -->
-        <section id="jamtangan">
-            <div class="container ">
-                <div class="row mt-5 ">
-                    <div class="col ">
-                        <h2 style="font-family: 'IBM Plex Mono', monospace; ">Jam tangan</h2>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end jamtangan -->
-
-        <!-- card product -->
-        <div class="container ">
-            <div class="row mt-2 ">
-                <div class="col-6 col-md-3 ">
-                    <div class="card ">
-                        <img src="aset/jamtangan.png " class="card-img-top " alt="... ">
-                        <div class="card-body ">
-                            <p class="card-text ">Some quick example text to build content.</p>
-                            <p>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                            </p>
-                            <a href="# " class="btn btn-primary " style="font-size: 14px; ">
-                              Buy
-                            </a>
-                            <a href="# " class="btn btn-danger " style="font-size: 14px; ">
-                            Rp 33.000
-                        </a>
-
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 ">
-                    <div class="card ">
-                        <img src="aset/jamtangan.png " class="card-img-top " alt="... ">
-                        <div class="card-body ">
-                            <p class="card-text ">Some quick example text to build content.</p>
-                            <p>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                            </p>
-                            <a href="# " class="btn btn-primary " style="font-size: 14px; ">
-                              Buy
-                            </a>
-                            <a href="# " class="btn btn-danger " style="font-size: 14px; ">
-                            Rp 33.000
-                        </a>
-
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 ">
-                    <div class="card ">
-                        <img src="aset/jamtangan.png " class="card-img-top " alt="... ">
-                        <div class="card-body ">
-                            <p class="card-text ">Some quick example text to build content.</p>
-                            <p>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                            </p>
-                            <a href="# " class="btn btn-primary " style="font-size: 14px; ">
-                              Buy
-                            </a>
-                            <a href="# " class="btn btn-danger " style="font-size: 14px; ">
-                            Rp 33.000
-                        </a>
-
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 ">
-                    <div class="card ">
-                        <img src="aset/jamtangan.png " class="card-img-top " alt="... ">
-                        <div class="card-body ">
-                            <p class="card-text ">Some quick example text to build content.</p>
-                            <p>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                            </p>
-                            <a href="# " class="btn btn-primary " style="font-size: 14px; ">
-                              Buy
-                            </a>
-                            <a href="# " class="btn btn-danger " style="font-size: 14px; ">
-                            Rp 33.000
-                        </a>
-
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- end card product -->
-
-        <!-- alat tulis -->
-        <section id="alattulis">
-            <div class="container ">
-                <div class="row mt-5 ">
-                    <div class="col ">
-                        <h2 style="font-family: 'IBM Plex Mono', monospace; ">Alat tulis</h2>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end buku dan alat tulis -->
-
-        <!-- card product -->
-        <div class="container ">
-            <div class="row m-2 ">
-                <div class="col-6 col-md-3 ">
-                    <div class="card ">
-                        <img src="aset/alat-tulis.png " class="card-img-top " alt="... ">
-                        <div class="card-body ">
-                            <p class="card-text ">Some quick example text to build content.</p>
-                            <p>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                            </p>
-                            <a href="# " class="btn btn-primary " style="font-size: 14px; ">
-                              Buy
-                            </a>
-                            <a href="# " class="btn btn-danger " style="font-size: 14px; ">
-                                Rp 33.000
-                            </a>
-
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 ">
-                    <div class="card ">
-                        <img src="aset/alat-tulis.png " class="card-img-top " alt="... ">
-                        <div class="card-body ">
-                            <p class="card-text ">Some quick example text to build content.</p>
-                            <p>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                            </p>
-                            <a href="# " class="btn btn-primary " style="font-size: 14px; ">
-                              Buy
-                            </a>
-                            <a href="# " class="btn btn-danger " style="font-size: 14px; ">
-                            Rp 33.000
-                        </a>
-
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 ">
-                    <div class="card ">
-                        <img src="aset/alat-tulis.png " class="card-img-top " alt="... ">
-                        <div class="card-body ">
-                            <p class="card-text ">Some quick example text to build content.</p>
-                            <p>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                            </p>
-                            <a href="# " class="btn btn-primary " style="font-size: 14px; ">
-                              Buy
-                            </a>
-                            <a href="# " class="btn btn-danger " style="font-size: 14px; ">
-                            Rp 33.000
-                        </a>
-
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-3 ">
-                    <div class="card ">
-                        <img src="aset/alat-tulis.png " class="card-img-top " alt="... ">
-                        <div class="card-body ">
-                            <p class="card-text ">Some quick example text to build content.</p>
-                            <p>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                                <ion-icon name="star-outline"></ion-icon>
-                            </p>
-                            <a href="# " class="btn btn-primary " style="font-size: 14px; ">
-                              Buy
-                            </a>
-                            <a href="# " class="btn btn-danger " style="font-size: 14px; ">
-                            Rp 35.000
-                        </a>
-
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- end card product -->
-
-        <!--  Bootstrap Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
-
-        <!-- script icons -->
-        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- link animasi muncul content -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

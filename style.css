@@ -1,97 +1,676 @@
-/* style nama  */
+/* rest css */
+
+html,
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
 
 body {
+    font-family: 'Concert One', cursive;
+    color: #73777B;
     overflow-x: hidden;
+    box-sizing: border-box;
 }
 
-.baju {
-    font-family: 'Exo', sans-serif;
-    font-size: 22px;
-    margin-top: 15px;
-    font-weight: bold;
-    margin-left: -5px;
+
+/* container-home */
+
+.container-home {
+    width: 1400px;
+    height: 700px;
+    background-color: #FDEEDC;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: auto;
+}
+
+
+/* content-home */
+
+.gambar-1 img {
+    width: 850px;
+}
+
+.gambar-1 {
+    position: absolute;
+    left: 600px;
+    top: 100px;
+}
+
+.ket-1 {
+    position: absolute;
+    font-size: 20px;
+    top: 300px;
+    left: 150px;
+    width: 350px;
+}
+
+.header {
+    font-size: 70px;
+    position: absolute;
+    top: 195px;
+    left: 150px;
+}
+
+.kotak-1 {
+    width: 140px;
+    height: 55px;
+    background-color: #FFD8A9;
+    position: absolute;
+    top: 400px;
+    left: 150px;
+    border-radius: 20px;
+}
+
+.kotak-2 {
+    width: 140px;
+    height: 55px;
+    background-color: #FFD8A9;
+    position: absolute;
+    top: 400px;
+    left: 360px;
+    border-radius: 20px;
+}
+
+
+/* icons intagram dan facebook */
+
+.icon-instagram a {
+    color: #F1A661;
+    position: absolute;
+    font-size: 60px;
+    top: 640px;
+    left: 50px;
+}
+
+.icon-facebook a {
+    color: #F1A661;
+    position: absolute;
+    font-size: 55px;
+    top: 641px;
+    left: 200px;
+}
+
+
+/* container-content-1 */
+
+.container-content-1 {
+    background-color: #FFD8A9;
+    width: 1400px;
+    height: 800px;
+    position: relative;
+    overflow-x: hidden;
+    margin: auto;
+}
+
+.gambar-2 {
+    width: 700px;
+    position: absolute;
+    top: 60px;
+    left: 40px;
+}
+
+.burger {
     width: 120px;
+    position: absolute;
+    left: 500px;
+    top: 50px;
 }
 
-.jamtangan {
-    font-family: 'Exo', sans-serif;
-    margin-top: 10px;
-    font-weight: 550px;
-    font-weight: bold;
-    margin-left: -28px;
-    font-size: 21px;
-    width: 120px;
+.drink {
+    width: 160px;
+    position: absolute;
+    top: 120px;
+    left: 20px;
 }
 
-.headset {
-    font-family: 'Exo', sans-serif;
-    margin-top: 10px;
-    margin-left: 2px;
-    font-weight: bold;
+.keju {
+    width: 100px;
+    position: absolute;
+    top: 600px;
+    left: 60px;
+}
+
+.belanjaan {
+    width: 200px;
+    position: absolute;
+    top: 470px;
+    left: 500px;
+}
+
+.help {
+    width: 700px;
+    position: absolute;
+    top: 60px;
+}
+
+
+/* ket-2 */
+
+.ket-2 {
+    position: absolute;
+    top: 100px;
+    left: 700px;
+    font-size: 50px;
+    width: 700px;
+}
+
+.ket-3 {
+    position: absolute;
+    top: 250px;
+    left: 700px;
     font-size: 20px;
+    width: 600px;
 }
 
-.sepatu {
-    margin-top: 14px;
-    margin-left: 16px;
-    font-family: 'Exo', sans-serif;
-    font-weight: bold;
-    font-size: 20px;
+.ket-4 {
+    position: absolute;
+    font-size: 30px;
+    top: 400px;
+    left: 700px;
 }
 
-.alat-tulis {
-    margin-left: 29px;
-    width: 150px;
-    margin-top: 4px;
-    font-family: 'Exo', sans-serif;
-    font-size: 19px;
-    font-weight: bold;
+.tokopedia img {
+    width: 200px;
 }
 
-.tas {
-    margin-left: 18px;
-    font-family: 'Exo', sans-serif;
-    font-weight: bold;
-    font-size: 20px;
+.tokopedia {
+    position: absolute;
+    left: 700px;
+    top: 430px;
 }
 
-.tass {
-    margin-top: 4px;
+.shopee img {
+    width: 55px;
 }
 
-.bajuu {
-    margin-left: 25px;
-    margin-top: 1px;
+.shopee {
+    position: absolute;
+    left: 880px;
+    top: 457px;
 }
 
 
-/* stle hover */
+/* link toko */
 
-.iconsproduct:hover {
-    scale: 1.05;
+.tokopedia-1 {
+    width: 400px;
+    height: 60px;
+    background-color: #FDEEDC;
+    position: absolute;
+    top: 600px;
+    left: 850px;
+    border-radius: 20px;
+}
+
+.toko-1 {
+    position: absolute;
+    top: 5px;
+    text-decoration: none;
+    font-size: 40px;
+    left: 120px;
+    color: #73777B;
+}
+
+.tokopedia-2 {
+    width: 200px;
+    margin-top: -24px;
+    margin-left: -60px;
+}
+
+.toko-2 {
+    position: absolute;
+    top: 10px;
+    font-size: 40px;
+    text-decoration: none;
+    left: 121px;
+    color: #73777B;
+}
+
+.shopee-1 {
+    width: 400px;
+    height: 60px;
+    background-color: #FDEEDC;
+    position: absolute;
+    top: 700px;
+    left: 850px;
+    border-radius: 20px;
+}
+
+.shopee-2 {
+    width: 55px;
+    margin-left: 10px;
 }
 
 
-/* responsiff my css */
+/* container-content-3 */
 
-@media only screen and (max-width:720px) {
-    .sepatu {
-        margin-top: 10px;
-        margin-left: 10px;
-        font-family: 'Exo', sans-serif;
-        font-weight: 900;
-        font-size: 19px;
+.container-content-3 {
+    height: 920px;
+    background-color: #F1A661;
+    width: 1400px;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: auto;
+}
+
+.ket-5 {
+    color: #E0D8B0;
+    font-size: 40px;
+    text-align: center;
+    width: 600px;
+    margin-left: 424px;
+    padding-top: 3rem;
+}
+
+.baju-1 {
+    font-size: 90px;
+    color: #F4D19B;
+    position: absolute;
+    left: 320px;
+    top: 175px;
+}
+
+.github-1 {
+    color: #F4D19B;
+    font-size: 80px;
+    position: absolute;
+    left: 680px;
+    top: 185px;
+}
+
+.warna {
+    color: #F4D19B;
+    font-size: 85px;
+    position: absolute;
+    left: 1020px;
+    top: 180px;
+}
+
+.box-1 {
+    width: 170px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #F4D19B;
+    position: absolute;
+    left: 280px;
+    top: 295px;
+}
+
+.box-2 {
+    width: 170px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #F4D19B;
+    position: absolute;
+    left: 634px;
+    top: 300px;
+}
+
+.box-3 {
+    width: 170px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #F4D19B;
+    position: absolute;
+    left: 980px;
+    top: 300px;
+}
+
+.surat-1 {
+    width: 80px;
+    position: absolute;
+    top: 500px;
+    left: 450px;
+}
+
+.surat-2 {
+    width: 80px;
+    position: absolute;
+    left: 950px;
+    top: 600px;
+}
+
+.surat-3 {
+    width: 80px;
+    position: absolute;
+    left: 850px;
+    top: 440px;
+}
+
+.orang {
+    width: 1000px;
+    position: absolute;
+    top: 390px;
+    left: 210px;
+}
+
+.a1 {
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 32px;
+    line-height: 45px;
+    color: #73777B;
+}
+
+.a2 {
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 32px;
+    line-height: 45px;
+    color: #73777B;
+}
+
+.a3 {
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 45px;
+    line-height: 45px;
+    color: #73777B;
+}
+
+
+/* responsive */
+
+@media only screen and (max-width: 700px) {
+    .container-home {
+        height: 900px;
     }
-    .bajuu {
-        margin-left: 14px;
+    .gambar-1 img {
+        width: 750px;
+        position: absolute;
+        left: -600px;
+        top: 300px;
     }
-    .jamm {
-        margin-left: 10px;
+    .icon-facebook {
+        position: absolute;
+        top: 200px;
+        left: -100px;
     }
-    .jamtangan {
-        margin-left: -13px;
+    .instagram-1 {
+        font-size: 50px;
     }
-    .alat-tulis {
-        margin-left: 17px;
+    .facebook-1 {
+        font-size: 43px;
+    }
+    .icon-instagram {
+        position: absolute;
+        top: 200px;
+        left: -30px;
+    }
+    .ket-1 {
+        position: absolute;
+        top: 220px;
+        left: 180px;
+        text-align: center;
+    }
+    .header {
+        position: absolute;
+        top: 120px;
+        left: 180px;
+    }
+    .kotak-1 {
+        position: absolute;
+        top: 320px
+    }
+    .kotak-2 {
+        position: absolute;
+        top: 320px;
+        left: 415px;
+    }
+    /* container content-1 */
+    .container-content-1 {
+        height: 1500px;
+        overflow-y: hidden;
+    }
+    .ket-2 {
+        position: absolute;
+        left: -4px;
+        font-size: 50px;
+        top: 760px;
+        text-align: center;
+    }
+    .ket-3 {
+        position: absolute;
+        left: 40px;
+        top: 900px;
+        text-align: center;
+    }
+    .ket-4 {
+        position: absolute;
+        left: 70px;
+        top: 1050px;
+    }
+    .tokopedia {
+        position: absolute;
+        left: 150px;
+        top: 1095px;
+    }
+    .shopee {
+        position: absolute;
+        left: 380px;
+        top: 1120px;
+    }
+    .tokopedia-1 {
+        position: absolute;
+        left: 120px;
+        top: 1240px;
+    }
+    .shopee-1 {
+        position: absolute;
+        left: 120px;
+        top: 1320px;
+    }
+    .container-content-3 {
+        height: 1500px;
+    }
+    .ket-5 {
+        position: absolute;
+        left: -380px;
+    }
+    .box-1 {
+        position: absolute;
+        left: 254px;
+    }
+    .baju-1 {
+        position: absolute;
+        left: 294px;
+    }
+    .box-2 {
+        position: absolute;
+        left: 257px;
+        top: 535px;
+    }
+    .github-1 {
+        position: absolute;
+        left: 299px;
+        top: 420px;
+    }
+    .box-3 {
+        position: absolute;
+        left: 257px;
+        top: 800px;
+    }
+    .warna {
+        position: absolute;
+        left: 298px;
+        top: 670px
+    }
+    .orang {
+        width: 900px;
+        position: absolute;
+        left: -110px;
+        top: 900px;
+    }
+    .surat-1 {
+        position: absolute;
+        left: 150px;
+        top: 1000px;
+    }
+    .surat-2 {
+        position: absolute;
+        left: 500px;
+        top: 1150px;
+    }
+    .surat-3 {
+        position: absolute;
+        left: 440px;
+        top: 950px;
+    }
+}
+
+
+/* responsive mobile */
+
+@media only screen and (max-width: 420px) {
+    .container-content-1 {
+        height: 1200px;
+    }
+    .ket-1 {
+        font-size: 20px;
+        text-align: start;
+        position: absolute;
+        left: 20px;
+    }
+    .header {
+        position: absolute;
+        left: 15px;
+        top: 135px;
+    }
+    .kotak-2 {
+        position: absolute;
+        left: 20px;
+        top: 420px;
+        left: 148px;
+    }
+    .gambar-1 img {
+        width: 530px;
+        position: absolute;
+        top: 400px;
+        left: -645px;
+    }
+    .help {
+        width: 500px;
+        position: absolute;
+        left: -30px;
+    }
+    .burger {
+        width: 90px;
+        position: absolute;
+        left: 280px;
+    }
+    .drink {
+        width: 120px;
+        position: absolute;
+        left: 8px;
+    }
+    .keju {
+        position: absolute;
+        left: 20px;
+        top: 400px;
+        width: 80px;
+    }
+    .belanjaan {
+        position: absolute;
+        left: 100px;
+        width: 100px;
+        left: 270px;
+        top: 420px;
+    }
+    .ket-2 {
+        position: absolute;
+        font-size: 30px;
+        left: 5px;
+        width: 400px;
+        top: 550px;
+    }
+    .ket-3 {
+        position: absolute;
+        top: 640px;
+        left: 14px;
+        font-size: 20px;
+        width: 380px;
+        top: 632px;
+    }
+    .ket-4 {
+        font-size: 20px;
+        left: 23px;
+        position: absolute;
+        top: 850px;
+    }
+    .tokopedia {
+        position: absolute;
+        left: 50px;
+        top: 880px;
+        top: 869px;
+    }
+    .tokopedia img {
+        width: 180px;
+    }
+    .shopee {
+        position: absolute;
+        left: 240px;
+        top: 890px;
+    }
+    .shopee img {
+        width: 53px;
+    }
+    .tokopedia-1 {
+        position: absolute;
+        left: 25px;
+        width: 350px;
+        top: 1000px;
+    }
+    .shopee-1 {
+        position: absolute;
+        width: 350px;
+        left: 25px;
+        top: 1100px;
+    }
+    .container-content-3 {
+        height: 1300px;
+    }
+    .ket-5 {
+        font-size: 35px;
+        position: absolute;
+        left: -420px;
+        width: 400px;
+        text-align: center;
+    }
+    .baju-1 {
+        left: 160px;
+    }
+    .box-1 {
+        left: 120px;
+    }
+    .github-1 {
+        left: 165px;
+    }
+    .box-2 {
+        left: 122px;
+    }
+    .warna {
+        left: 161px;
+    }
+    .box-3 {
+        left: 122px;
+    }
+    .surat-1 {
+        left: 10px;
+    }
+    .orang {
+        left: -170px;
+        width: 700px;
+    }
+    .surat-2 {
+        left: 295px;
+        top: 1070px
+    }
+    .surat-3 {
+        left: 265px;
     }
 }
