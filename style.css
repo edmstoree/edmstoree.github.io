@@ -18,7 +18,7 @@ body {
 /* container-home */
 
 .container-home {
-    height: 700px;
+    height: 600px;
     background-color: #FDEEDC;
     position: relative;
     overflow-x: hidden;
@@ -81,7 +81,7 @@ body {
     color: #F1A661;
     position: absolute;
     font-size: 60px;
-    top: 640px;
+    top: 540px;
     left: 50px;
 }
 
@@ -89,7 +89,7 @@ body {
     color: #F1A661;
     position: absolute;
     font-size: 55px;
-    top: 641px;
+    top: 543px;
     left: 200px;
 }
 
