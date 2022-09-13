@@ -540,6 +540,14 @@ body {
         left: 15px;
         top: 135px;
     }
+    .instagram-1 {
+        position: absolute;
+        top: 110px;
+    }
+    .facebook-1 {
+        position: absolute;
+        top: 111px;
+    }
     .kotak-2 {
         position: absolute;
         left: 20px;
