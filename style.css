@@ -682,25 +682,39 @@ body {
     }
 }
 
-@media only screen and ( max-width:377px) {
+@media only screen and ( max-width:360px) {
+    .header {
+        font-size: 60px;
+    }
+    .ket-1 {
+        width: 330px;
+        letter-spacing: .3px;
+        margin-left: -4px;
+        margin-top: 3px;
+    }
     .ket-4 {
         font-size: 18px;
-        margin-left: 10px;
+        margin-left: -1px;
+        margin-top: 10px;
     }
     .ket-3 {
         font-size: 20px;
-        width: 355px;
+        width: 340px;
+        margin-left: -2px;
     }
     .ket-2 {
         width: 355px;
         font-size: 27px;
-        margin-left: 10px;
+        margin-left: -2px;
+    }
+    .ket-5 {
+        width: 350px;
     }
     .gambar-1 {
         margin-top: -100px;
     }
     .gambar-1 img {
-        width: 500px;
+        width: 475px;
     }
     .container-home {
         height: 800px;
@@ -710,5 +724,51 @@ body {
     }
     .icon-instagram {
         margin-top: -100px;
+    }
+    .help {
+        width: 450px;
+    }
+    .burger {
+        position: absolute;
+        left: 240px;
+        top: 50px;
+    }
+    .tokopedia {
+        margin-left: -15px;
+        margin-top: 10px;
+    }
+    .shopee {
+        margin-left: -17px;
+        margin-top: 10px;
+    }
+    .tokopedia-1 {
+        width: 320px;
+    }
+    .toko-1 {
+        margin-left: -25px;
+    }
+    .shopee-1 {
+        width: 320px;
+    }
+    .toko-2 {
+        margin-left: -25px;
+    }
+    .baju-1 {
+        margin-left: -13px;
+    }
+    .box-1 {
+        margin-left: -13px;
+    }
+    .github-1 {
+        margin-left: -15px;
+    }
+    .box-2 {
+        margin-left: -15px;
+    }
+    .warna {
+        margin-left: -10px;
+    }
+    .box-3 {
+        margin-left: -15px;
     }
 }
