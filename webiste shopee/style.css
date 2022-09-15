@@ -75,25 +75,29 @@ body {
     body {
         overflow-x: hidden;
     }
+    .icons {
+        margin-left: -10px;
+        overflow-x: hidden;
+    }
     .tas {
-        margin-left: -135px;
+        margin-left: -70px;
     }
     .elektronik {
-        margin-left: -125px;
+        margin-left: -60px;
         margin-top: 30px;
     }
     .alattulis {
-        margin-left: -120px;
+        margin-left: -50px;
         margin-top: 23px;
     }
     .jamtangan {
-        margin-left: -112px;
+        margin-left: -30px;
         margin-top: 22px;
     }
     .baju {
-        margin-left: -130px;
+        margin-left: -60px;
     }
     .sepatu {
-        margin-left: -130px;
+        margin-left: -50px;
     }
 }
