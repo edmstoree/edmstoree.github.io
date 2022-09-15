@@ -9,17 +9,24 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <!-- my style -->
+    <!-- my style css -->
     <link rel="stylesheet" href="style.css">
 
-    <title>Hello, world!</title>
+    <!-- link font-google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Prompt:wght@600&display=swap" rel="stylesheet">
+
+    <!-- link icon -->
+    <link rel="icon" href="aset/logo-1.jpg">
+    <title>edmstoree</title>
 </head>
 
 <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #84C567;">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+        <div class="container">
+            <a class="navbar-brand" href="https://www.instagram.com/edm___store/" style=" font-family: 'Fredoka One', cursive; font-size: 15px;">EDM_STOREE</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -29,13 +36,7 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        <a class="nav-link active" href="#kategori">Product</a>
                     </li>
                 </ul>
             </div>
@@ -78,68 +79,62 @@
     </div>
     <!-- end iklan -->
 
-    <!--icons jenis product -->
-    <div class="container jenis-product">
-        <div class="row">
-            <div class="col-6 col-md-4 col-lg-2">
-                <div class="kotak-1"></div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-2">
-                <div class="kotak-2"></div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-2">
-                <div class="kotak-3"></div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-2">
-                <div class="kotak-4"></div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-2">
-                <div class="kotak-5"></div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-2">
-                <div class="kotak-6"></div>
+    <!-- kategori -->
+    <section id="kategori" style="padding-top: 2rem ;">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="name-kategori">KATEGORI</p>
+                </div>
             </div>
         </div>
-    </div>
-    <!-- end icons jenis product -->
+    </section>
+    <!-- end kategori -->
 
-    <!-- product -->
-    <div class="container product">
+    <!-- icons katergori -->
+    <div class="container icons">
         <div class="row">
-            <div class="col-3">
-                <div class="box-1"></div>
-            </div>
-            <div class="col-3">
-                <div class="box-2"></div>
-            </div>
-            <div class="col-3">
-                <div class="box-3"></div>
-            </div>
-            <div class="col-3">
-                <div class="box-4"></div>
-            </div>
-            <div class="col-3">
-                <div class="box-5"></div>
-            </div>
-            <div class="col-3">
-                <div class="box-6"></div>
-            </div>
-            <div class="col-3">
-                <div class="box-7"></div>
-            </div>
-            <div class="col-3">
-                <div class="box-8"></div>
+            <div class="row" style="margin-left: 90px;">
+                <div class="col-4 col-md-2">
+                    <a href="">
+                        <img src="aset/tas.png" alt="" class="tas">
+                    </a>
+                </div>
+                <div class="col-4 col-md-2">
+                    <a href="">
+                        <img src="aset/baju.png" alt="" class="baju">
+                    </a>
+                </div>
+                <div class="col-4 col-md-2">
+                    <a href="">
+                        <img src="aset/sepatu.png" alt="" class="sepatu">
+                    </a>
+                </div>
+                <div class="col-4 col-md-2">
+                    <a href="">
+                        <img src="aset/electronik.png" alt="" class="elektronik">
+                    </a>
+                </div>
+                <div class="col-4 col-md-2">
+                    <a href="">
+                        <img src="aset/alattulis.png" alt="" class="alattulis">
+                    </a>
+                </div>
+                <div class="col-4 col-md-2">
+                    <a href="">
+                        <img src="aset/jamtangan.png" alt="" class="jamtangan">
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
-    <!-- end product -->
+        <!-- end icons kategori -->
 
 
 
 
-    <!-- javascript bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
+        <!-- java script bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
 </html>

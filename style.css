@@ -681,3 +681,34 @@ body {
         left: 265px;
     }
 }
+
+@media only screen and ( max-width:377px) {
+    .ket-4 {
+        font-size: 18px;
+        margin-left: 10px;
+    }
+    .ket-3 {
+        font-size: 20px;
+        width: 355px;
+    }
+    .ket-2 {
+        width: 355px;
+        font-size: 27px;
+        margin-left: 10px;
+    }
+    .gambar-1 {
+        margin-top: -100px;
+    }
+    .gambar-1 img {
+        width: 500px;
+    }
+    .container-home {
+        height: 800px;
+    }
+    .icon-facebook {
+        margin-top: -100px;
+    }
+    .icon-instagram {
+        margin-top: -100px;
+    }
+}

@@ -1,209 +1,89 @@
-body {
-    background-color: #fff;
-    height: 2000px;
-}
-
-.iklan {
-    margin-top: 40px;
-}
-
-
-/* icons */
-
-.jenis-product {
-    margin-top: 200px;
-    margin-left: 390px;
-}
-
-.kotak-1 {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-}
-
-.kotak-2 {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-}
-
-.kotak-3 {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-}
-
-.kotak-4 {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-}
-
-.kotak-5 {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-}
-
-.kotak-6 {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-}
-
-
-/* product */
-
-.product {
-    margin-top: 100px;
-}
-
-.box-1 {
-    width: 250px;
-    height: 280px;
-    background-color: red;
-}
-
-.box-2 {
-    width: 250px;
-    height: 280px;
-    background-color: red;
-}
-
-.box-3 {
-    width: 250px;
-    height: 280px;
-    background-color: red;
-}
-
-.box-4 {
-    width: 250px;
-    height: 280px;
-    background-color: red;
-}
-
-.box-5 {
-    margin-top: 20px;
-    width: 250px;
-    height: 280px;
-    background-color: red;
-}
-
-.box-6 {
-    margin-top: 20px;
-    width: 250px;
-    height: 280px;
-    background-color: red;
-}
-
-.box-7 {
-    margin-top: 20px;
-    width: 250px;
-    height: 280px;
-    background-color: red;
-}
-
-.box-8 {
-    margin-top: 20px;
-    width: 250px;
-    height: 280px;
-    background-color: red;
-}
-
-.box-9 {
-    margin-top: 20px;
-    width: 250px;
-    height: 280px;
-    background-color: red;
-}
-
-
-/* responsive */
-
-
-/* hp */
-
-@media only screen and (min-width: 393px) {
-    .jenis-product {
-        margin-left: 43px;
+    body {
+        height: 2000px;
+        overflow-x: hidden;
+        background-color: rgb(227, 227, 227);
     }
-    .kotak-3 {
-        margin-top: 20px;
-    }
-    .kotak-4 {
-        margin-top: 20px;
-    }
-    .kotak-5 {
-        margin-top: 20px;
-    }
-    .kotak-6 {
-        margin-top: 20px;
-    }
-}
-
-@media only screen and (min-width: 412px) {
-    .jenis-product {
-        margin-left: 43px;
-    }
-    .kotak-3 {
-        margin-top: 20px;
-    }
-    .kotak-4 {
-        margin-top: 20px;
-    }
-    .kotak-5 {
-        margin-top: 20px;
-    }
-    .kotak-6 {
-        margin-top: 20px;
-    }
-}
-
-@media only screen and (max-width: 414px) {
-    .jenis-product {
-        margin-left: 43px;
-    }
-}
-
-@media only screen and ( max-width: 360px) {
-    .jenis-product {
-        margin-left: 30px;
+    /* style iklan */
+    
+    .iklan {
         margin-top: 40px;
     }
-    .kotak-3 {
-        margin-top: 20px;
+    /* style kategori */
+    
+    .name-kategori {
+        font-size: 30px;
+        color: rgb(6, 6, 6);
+        font-family: monospace;
+        text-align: center;
+        margin-top: 50px;
+        font-family: 'Fredoka One', cursive;
+        margin-left: 10px;
     }
-    .kotak-4 {
-        margin-top: 20px;
+    /* style icons */
+    
+    .icons {
+        margin-left: 60px;
+        margin-top: 2rem;
     }
-    .kotak-5 {
-        margin-top: 20px;
+    
+    .tas {
+        width: 70px;
+        margin-top: -5px;
     }
-    .kotak-6 {
-        margin-top: 20px;
+    
+    .baju {
+        width: 65px;
     }
-}
-
-@media only screen and ( min-width: 688px) {
-    .jenis-product {
-        margin-left: 130px
+    
+    .sepatu {
+        width: 80px;
+        margin-top: 15px;
     }
-}
-
-@media only screen and ( min-width: 1000px) {
-    .jenis-product {
-        margin-left: 134px;
+    
+    .elektronik {
+        width: 50px;
+        margin-top: 10px;
     }
-    .kotak-3 {
-        margin-top: 0px;
+    
+    .alattulis {
+        width: 45px;
     }
-    .kotak-4 {
-        margin-top: 0px;
+    
+    .jamtangan {
+        width: 40px;
+        margin-top: 3px;
     }
-    .kotak-5 {
-        margin-top: 0px;
+    /* style barang sepatu */
+    
+    #sepatu {
+        margin-top: 120px;
+        margin-left: 100px;
     }
-    .kotak-6 {
-        margin-top: 0px;
+    /* responsive */
+    
+    @media only screen and ( max-width:414px) {
+        body {
+            overflow-x: hidden;
+        }
+        .tas {
+            margin-left: -135px;
+        }
+        .elektronik {
+            margin-left: -125px;
+            margin-top: 30px;
+        }
+        .alattulis {
+            margin-left: -120px;
+            margin-top: 23px;
+        }
+        .jamtangan {
+            margin-left: -112px;
+            margin-top: 22px;
+        }
+        .baju {
+            margin-left: -130px;
+        }
+        .sepatu {
+            margin-left: -130px;
+        }
     }
-}

@@ -1,0 +1,99 @@
+body {
+    height: 2000px;
+    overflow-x: hidden;
+    background-color: rgb(227, 227, 227);
+}
+
+
+/* style iklan */
+
+.iklan {
+    margin-top: 40px;
+}
+
+
+/* style kategori */
+
+.name-kategori {
+    font-size: 30px;
+    color: rgb(6, 6, 6);
+    font-family: monospace;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Fredoka One', cursive;
+    margin-left: 10px;
+}
+
+
+/* style icons */
+
+.icons {
+    margin-left: 60px;
+    margin-top: 2rem;
+}
+
+.tas {
+    width: 70px;
+    margin-top: -5px;
+}
+
+.baju {
+    width: 65px;
+}
+
+.sepatu {
+    width: 80px;
+    margin-top: 15px;
+}
+
+.elektronik {
+    width: 50px;
+    margin-top: 10px;
+}
+
+.alattulis {
+    width: 45px;
+}
+
+.jamtangan {
+    width: 40px;
+    margin-top: 3px;
+}
+
+
+/* style barang sepatu */
+
+#sepatu {
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+
+/* responsive */
+
+@media only screen and ( max-width:414px) {
+    body {
+        overflow-x: hidden;
+    }
+    .tas {
+        margin-left: -135px;
+    }
+    .elektronik {
+        margin-left: -125px;
+        margin-top: 30px;
+    }
+    .alattulis {
+        margin-left: -120px;
+        margin-top: 23px;
+    }
+    .jamtangan {
+        margin-left: -112px;
+        margin-top: 22px;
+    }
+    .baju {
+        margin-left: -130px;
+    }
+    .sepatu {
+        margin-left: -130px;
+    }
+}
