@@ -534,11 +534,12 @@ body {
         text-align: start;
         position: absolute;
         left: 20px;
+        top: 250px;
     }
     .header {
         position: absolute;
         left: 15px;
-        top: 135px;
+        top: 160px;
     }
     .instagram-1 {
         position: absolute;
@@ -555,9 +556,9 @@ body {
         left: 148px;
     }
     .gambar-1 img {
-        width: 530px;
+        width: 520px;
         position: absolute;
-        top: 400px;
+        top: 300px;
         left: -645px;
     }
     .help {
