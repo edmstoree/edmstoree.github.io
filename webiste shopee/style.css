@@ -69,6 +69,68 @@ body {
 }
 
 
+/* style product */
+
+.product {
+    margin-left: 140px;
+}
+
+.lima {
+    margin-top: 20px;
+}
+
+.enam {
+    margin-top: 20px;
+}
+
+.produk-1 {
+    margin-left: 35px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.produk-2 {
+    margin-left: 30px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.produk-3 {
+    margin-left: 34px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.produk-4 {
+    margin-left: -13px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+    margin-top: -50px;
+}
+
+.produk-5 {
+    margin-left: 150px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.produk-6 {
+    margin-left: 35px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.garis {
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+
 /* responsive */
 
 @media only screen and ( max-width:414px) {
@@ -76,7 +138,7 @@ body {
         overflow-x: hidden;
     }
     .icons {
-        margin-left: -10px;
+        margin-left: 0px;
         overflow-x: hidden;
     }
     .tas {
@@ -99,5 +161,54 @@ body {
     }
     .sepatu {
         margin-left: -65px;
+    }
+    .product {
+        margin-left: 5px;
+        margin-top: -20px;
+        width: 400px;
+    }
+    .satu {
+        margin-top: 20px;
+    }
+    .iklan {
+        margin-top: 20px;
+    }
+    #kategori {
+        margin-top: -40px;
+    }
+    .tiga {
+        margin-top: 20px;
+    }
+    .empat {
+        margin-top: 20px;
+    }
+    .lima {
+        margin-top: 20px;
+    }
+    .enam {
+        margin-top: 20px;
+    }
+    .garis {
+        margin-left: -1px;
+        background-color: black;
+    }
+    .produk-1 {
+        margin-left: 10px;
+        overflow-x: hidden;
+    }
+    .produk-2 {
+        margin-left: 10px;
+    }
+    .produk-3 {
+        margin-left: 10px;
+    }
+    .produk-4 {
+        margin-left: -90px;
+    }
+    .produk-5 {
+        margin-left: 22px;
+    }
+    .produk-6 {
+        margin-left: 10px;
     }
 }

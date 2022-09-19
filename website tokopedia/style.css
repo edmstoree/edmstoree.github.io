@@ -1,93 +1,214 @@
+body {
+    height: 2000px;
+    overflow-x: hidden;
+    background-color: rgb(227, 227, 227);
+}
+
+
+/* style iklan */
+
+.iklan {
+    margin-top: 40px;
+}
+
+
+/* style kategori */
+
+.name-kategori {
+    font-size: 30px;
+    color: rgb(6, 6, 6);
+    font-family: monospace;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Fredoka One', cursive;
+    margin-left: 10px;
+}
+
+
+/* style icons */
+
+.icons {
+    margin-left: 60px;
+    margin-top: 2rem;
+}
+
+.tas {
+    width: 70px;
+    margin-top: -5px;
+}
+
+.baju {
+    width: 65px;
+}
+
+.sepatu {
+    width: 80px;
+    margin-top: 15px;
+}
+
+.elektronik {
+    width: 50px;
+    margin-top: 10px;
+}
+
+.alattulis {
+    width: 45px;
+}
+
+.jamtangan {
+    width: 40px;
+    margin-top: 3px;
+}
+
+
+/* style barang sepatu */
+
+#sepatu {
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+
+/* style product */
+
+.product {
+    margin-left: 140px;
+}
+
+.lima {
+    margin-top: 20px;
+}
+
+.enam {
+    margin-top: 20px;
+}
+
+.produk-1 {
+    margin-left: 35px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.produk-2 {
+    margin-left: 30px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.produk-3 {
+    margin-left: 34px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.produk-4 {
+    margin-left: -13px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+    margin-top: -50px;
+}
+
+.produk-5 {
+    margin-left: 150px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.produk-6 {
+    margin-left: 35px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.garis {
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+
+/* responsive */
+
+@media only screen and ( max-width:414px) {
     body {
-        height: 2000px;
         overflow-x: hidden;
-        background-color: rgb(227, 227, 227);
     }
-    /* style iklan */
-    
+    .icons {
+        margin-left: 0px;
+        overflow-x: hidden;
+    }
+    .tas {
+        margin-left: -80px;
+    }
+    .elektronik {
+        margin-left: -70px;
+        margin-top: 30px;
+    }
+    .alattulis {
+        margin-left: -60px;
+        margin-top: 23px;
+    }
+    .jamtangan {
+        margin-left: -45px;
+        margin-top: 22px;
+    }
+    .baju {
+        margin-left: -70px;
+    }
+    .sepatu {
+        margin-left: -65px;
+    }
+    .product {
+        margin-left: 5px;
+        margin-top: -20px;
+        width: 400px;
+    }
+    .satu {
+        margin-top: 20px;
+    }
     .iklan {
-        margin-top: 40px;
+        margin-top: 20px;
     }
-    /* style kategori */
-    
-    .name-kategori {
-        font-size: 30px;
-        color: rgb(6, 6, 6);
-        font-family: monospace;
-        text-align: center;
-        margin-top: 50px;
-        font-family: 'Fredoka One', cursive;
+    #kategori {
+        margin-top: -40px;
+    }
+    .tiga {
+        margin-top: 20px;
+    }
+    .empat {
+        margin-top: 20px;
+    }
+    .lima {
+        margin-top: 20px;
+    }
+    .enam {
+        margin-top: 20px;
+    }
+    .garis {
+        margin-left: -1px;
+        background-color: black;
+    }
+    .produk-1 {
+        margin-left: 10px;
+        overflow-x: hidden;
+    }
+    .produk-2 {
         margin-left: 10px;
     }
-    /* style icons */
-    
-    .icons {
-        margin-left: 60px;
-        margin-top: 2rem;
+    .produk-3 {
+        margin-left: 10px;
     }
-    
-    .tas {
-        width: 70px;
-        margin-top: -5px;
+    .produk-4 {
+        margin-left: -90px;
     }
-    
-    .baju {
-        width: 65px;
+    .produk-5 {
+        margin-left: 22px;
     }
-    
-    .sepatu {
-        width: 80px;
-        margin-top: 15px;
+    .produk-6 {
+        margin-left: 10px;
     }
-    
-    .elektronik {
-        width: 50px;
-        margin-top: 10px;
-    }
-    
-    .alattulis {
-        width: 45px;
-    }
-    
-    .jamtangan {
-        width: 40px;
-        margin-top: 3px;
-    }
-    /* style barang sepatu */
-    
-    #sepatu {
-        margin-top: 120px;
-        margin-left: 100px;
-    }
-    /* responsive */
-    
-    @media only screen and ( max-width:414px) {
-        body {
-            overflow-x: hidden;
-        }
-        .icons {
-            margin-left: -10px;
-            overflow-x: hidden;
-        }
-        .tas {
-            margin-left: -80px;
-        }
-        .elektronik {
-            margin-left: -70px;
-            margin-top: 30px;
-        }
-        .alattulis {
-            margin-left: -60px;
-            margin-top: 23px;
-        }
-        .jamtangan {
-            margin-left: -45px;
-            margin-top: 22px;
-        }
-        .baju {
-            margin-left: -70px;
-        }
-        .sepatu {
-            margin-left: -65px;
-        }
-    }
+}
