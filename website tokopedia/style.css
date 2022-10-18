@@ -1,14 +1,7 @@
 body {
     height: 2000px;
     overflow-x: hidden;
-    background-color: rgb(227, 227, 227);
-}
-
-
-/* style iklan */
-
-.iklan {
-    margin-top: 40px;
+    background-color: #fff;
 }
 
 
@@ -61,80 +54,16 @@ body {
 }
 
 
-/* style barang sepatu */
-
-#sepatu {
-    margin-top: 120px;
-    margin-left: 100px;
-}
-
-
-/* style product */
-
-.product {
-    margin-left: 140px;
-}
-
-.lima {
-    margin-top: 20px;
-}
-
-.enam {
-    margin-top: 20px;
-}
-
-.produk-1 {
-    margin-left: 35px;
-    font-family: 'Fredoka One', cursive;
-    font-size: 30px;
-    margin-top: 20px;
-}
-
-.produk-2 {
-    margin-left: 30px;
-    font-family: 'Fredoka One', cursive;
-    font-size: 30px;
-    margin-top: 50px;
-}
-
-.produk-3 {
-    margin-left: 34px;
-    font-family: 'Fredoka One', cursive;
-    font-size: 30px;
-    margin-top: 50px;
-}
-
-.produk-4 {
-    margin-left: -13px;
-    font-family: 'Fredoka One', cursive;
-    font-size: 30px;
-    margin-top: -50px;
-}
-
-.produk-5 {
-    margin-left: 150px;
-    font-family: 'Fredoka One', cursive;
-    font-size: 30px;
-    margin-top: 50px;
-}
-
-.produk-6 {
-    margin-left: 35px;
-    font-family: 'Fredoka One', cursive;
-    font-size: 30px;
-    margin-top: 50px;
-}
-
-.garis {
-    margin-left: 90px;
-    margin-top: 50px;
-}
-
-
 /* responsive */
 
-@media only screen and ( max-width:414px) {
+@media only screen and ( max-width:400px) {
     body {
+        overflow-x: hidden;
+    }
+    .garis {
+        overflow-x: hidden;
+    }
+    #kategori {
         overflow-x: hidden;
     }
     .icons {
@@ -162,53 +91,11 @@ body {
     .sepatu {
         margin-left: -65px;
     }
-    .product {
-        margin-left: 5px;
-        margin-top: -20px;
-        width: 400px;
-    }
-    .satu {
-        margin-top: 20px;
-    }
-    .iklan {
-        margin-top: 20px;
-    }
     #kategori {
         margin-top: -40px;
-    }
-    .tiga {
-        margin-top: 20px;
-    }
-    .empat {
-        margin-top: 20px;
-    }
-    .lima {
-        margin-top: 20px;
-    }
-    .enam {
-        margin-top: 20px;
     }
     .garis {
         margin-left: -1px;
         background-color: black;
-    }
-    .produk-1 {
-        margin-left: 10px;
-        overflow-x: hidden;
-    }
-    .produk-2 {
-        margin-left: 10px;
-    }
-    .produk-3 {
-        margin-left: 10px;
-    }
-    .produk-4 {
-        margin-left: -90px;
-    }
-    .produk-5 {
-        margin-left: 22px;
-    }
-    .produk-6 {
-        margin-left: 10px;
     }
 }
