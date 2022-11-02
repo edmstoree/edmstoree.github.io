@@ -269,10 +269,17 @@
         /* responsive webisite */
         
         @media (max-width: 768px) {
+            .row {
+                overflow-x: hidden;
+            }
+            .container-home {
+                overflow-x: hidden;
+            }
             .img-home {
                 width: 370px;
                 margin-left: 10px;
                 margin-top: 80px;
+                overflow-x: hidden;
             }
             .nama-store {
                 margin-top: -10px;
@@ -296,6 +303,8 @@
                 left: 230px;
             }
             .gambar-awan-3 {
+                margin-left: -100px;
+                width: 100px;
                 opacity: 0%;
             }
             .pembungkus {
@@ -329,10 +338,14 @@
             .img-shopee {
                 width: 300px;
                 margin-left: 10px;
+                overflow-x: hidden;
             }
             .img-tokopedia {
-                opacity: 0%;
+                opacity: 1;
                 position: absolute;
+                overflow-x: hidden;
+                width: 1px;
+                opacity: 0%;
             }
             .tokopedia {
                 margin-top: 50px;
@@ -349,9 +362,13 @@
                 width: 350px;
                 margin-left: -15px;
                 margin-top: 30px;
+                overflow-x: hidden;
             }
             .img-top-up {
                 position: absolute;
+                opacity: 1;
+                overflow-x: hidden;
+                width: 1px;
                 opacity: 0%;
             }
             .top-up {
@@ -366,5 +383,6 @@
             }
             .gambar-contact {
                 width: 300px;
+                overflow-x: hidden;
             }
         }
