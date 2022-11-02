@@ -1,775 +1,370 @@
-/* rest css */
-
-html,
-* {
-    padding: 0;
-    margin: 0;
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family: 'Concert One', cursive;
-    color: #73777B;
-    overflow-x: hidden;
-    box-sizing: border-box;
-}
-
-
-/* container-home */
-
-.container-home {
-    height: 600px;
-    background-color: #FDEEDC;
-    position: relative;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    margin: auto;
-}
-
-
-/* content-home */
-
-.gambar-1 img {
-    width: 850px;
-}
-
-.gambar-1 {
-    position: absolute;
-    left: 600px;
-    top: 100px;
-}
-
-.ket-1 {
-    position: absolute;
-    font-size: 20px;
-    top: 300px;
-    left: 150px;
-    width: 350px;
-}
-
-.header {
-    font-size: 70px;
-    position: absolute;
-    top: 195px;
-    left: 150px;
-}
-
-.kotak-1 {
-    width: 140px;
-    height: 55px;
-    background-color: #FFD8A9;
-    position: absolute;
-    top: 400px;
-    left: 150px;
-    border-radius: 20px;
-}
-
-.kotak-2 {
-    width: 140px;
-    height: 55px;
-    background-color: #FFD8A9;
-    position: absolute;
-    top: 400px;
-    left: 360px;
-    border-radius: 20px;
-}
-
-
-/* icons intagram dan facebook */
-
-.icon-instagram a {
-    color: #F1A661;
-    position: absolute;
-    font-size: 60px;
-    top: 540px;
-    left: 50px;
-}
-
-.icon-facebook a {
-    color: #F1A661;
-    position: absolute;
-    font-size: 55px;
-    top: 543px;
-    left: 200px;
-}
-
-
-/* container-content-1 */
-
-.container-content-1 {
-    background-color: #FFD8A9;
-    height: 800px;
-    position: relative;
-    overflow-x: hidden;
-    margin: auto;
-}
-
-.gambar-2 {
-    width: 700px;
-    position: absolute;
-    top: 60px;
-    left: 40px;
-}
-
-.burger {
-    width: 120px;
-    position: absolute;
-    left: 500px;
-    top: 50px;
-}
-
-.drink {
-    width: 160px;
-    position: absolute;
-    top: 120px;
-    left: 20px;
-}
-
-.keju {
-    width: 100px;
-    position: absolute;
-    top: 600px;
-    left: 60px;
-}
-
-.belanjaan {
-    width: 200px;
-    position: absolute;
-    top: 470px;
-    left: 500px;
-}
-
-.help {
-    width: 700px;
-    position: absolute;
-    top: 60px;
-}
-
-
-/* ket-2 */
-
-.ket-2 {
-    position: absolute;
-    top: 100px;
-    left: 700px;
-    font-size: 50px;
-    width: 700px;
-}
-
-.ket-3 {
-    position: absolute;
-    top: 250px;
-    left: 700px;
-    font-size: 20px;
-    width: 600px;
-}
-
-.ket-4 {
-    position: absolute;
-    font-size: 30px;
-    top: 400px;
-    left: 700px;
-}
-
-.tokopedia img {
-    width: 200px;
-}
-
-.tokopedia {
-    position: absolute;
-    left: 700px;
-    top: 430px;
-}
-
-.shopee img {
-    width: 55px;
-}
-
-.shopee {
-    position: absolute;
-    left: 880px;
-    top: 457px;
-}
-
-
-/* link toko */
-
-.tokopedia-1 {
-    width: 400px;
-    height: 60px;
-    background-color: #FDEEDC;
-    position: absolute;
-    top: 600px;
-    left: 850px;
-    border-radius: 20px;
-}
-
-.toko-1 {
-    position: absolute;
-    top: 5px;
-    text-decoration: none;
-    font-size: 40px;
-    left: 120px;
-    color: #73777B;
-}
-
-.tokopedia-2 {
-    width: 200px;
-    margin-top: -24px;
-    margin-left: -60px;
-}
-
-.toko-2 {
-    position: absolute;
-    top: 10px;
-    font-size: 40px;
-    text-decoration: none;
-    left: 121px;
-    color: #73777B;
-}
-
-.shopee-1 {
-    width: 400px;
-    height: 60px;
-    background-color: #FDEEDC;
-    position: absolute;
-    top: 700px;
-    left: 850px;
-    border-radius: 20px;
-}
-
-.shopee-2 {
-    width: 55px;
-    margin-left: 10px;
-}
-
-
-/* container-content-3 */
-
-.container-content-3 {
-    height: 920px;
-    background-color: #F1A661;
-    position: relative;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    margin: auto;
-}
-
-.ket-5 {
-    color: #E0D8B0;
-    font-size: 40px;
-    text-align: center;
-    width: 600px;
-    margin-left: 424px;
-    padding-top: 3rem;
-}
-
-.baju-1 {
-    font-size: 90px;
-    color: #F4D19B;
-    position: absolute;
-    left: 320px;
-    top: 175px;
-}
-
-.github-1 {
-    color: #F4D19B;
-    font-size: 80px;
-    position: absolute;
-    left: 680px;
-    top: 185px;
-}
-
-.warna {
-    color: #F4D19B;
-    font-size: 85px;
-    position: absolute;
-    left: 1020px;
-    top: 180px;
-}
-
-.box-1 {
-    width: 170px;
-    height: 50px;
-    border-radius: 20px;
-    background-color: #F4D19B;
-    position: absolute;
-    left: 280px;
-    top: 295px;
-}
-
-.box-2 {
-    width: 170px;
-    height: 50px;
-    border-radius: 20px;
-    background-color: #F4D19B;
-    position: absolute;
-    left: 634px;
-    top: 300px;
-}
-
-.box-3 {
-    width: 170px;
-    height: 50px;
-    border-radius: 20px;
-    background-color: #F4D19B;
-    position: absolute;
-    left: 980px;
-    top: 300px;
-}
-
-.surat-1 {
-    width: 80px;
-    position: absolute;
-    top: 500px;
-    left: 450px;
-}
-
-.surat-2 {
-    width: 80px;
-    position: absolute;
-    left: 950px;
-    top: 600px;
-}
-
-.surat-3 {
-    width: 80px;
-    position: absolute;
-    left: 850px;
-    top: 440px;
-}
-
-.orang {
-    width: 1000px;
-    position: absolute;
-    top: 390px;
-    left: 210px;
-}
-
-.a1 {
-    text-decoration: none;
-    font-size: 30px;
-    margin-left: 32px;
-    line-height: 45px;
-    color: #73777B;
-}
-
-.a2 {
-    text-decoration: none;
-    font-size: 30px;
-    margin-left: 32px;
-    line-height: 45px;
-    color: #73777B;
-}
-
-.a3 {
-    text-decoration: none;
-    font-size: 30px;
-    margin-left: 45px;
-    line-height: 45px;
-    color: #73777B;
-}
-
-
-/* responsive */
-
-@media only screen and (max-width: 700px) {
-    .container-home {
-        height: 900px;
-        overflow-x: hidden;
-    }
-    .gambar-1 img {
-        width: 750px;
-        position: absolute;
-        left: -600px;
-        top: 300px;
-    }
-    .icon-facebook {
-        position: absolute;
-        top: 200px;
-        left: -100px;
-    }
-    .instagram-1 {
-        font-size: 50px;
-    }
-    .facebook-1 {
-        font-size: 43px;
-    }
-    .icon-instagram {
-        position: absolute;
-        top: 200px;
-        left: -30px;
-    }
-    .ket-1 {
-        position: absolute;
-        top: 220px;
-        left: 180px;
-        text-align: center;
-    }
-    .header {
-        position: absolute;
-        top: 120px;
-        left: 180px;
-    }
-    .kotak-1 {
-        position: absolute;
-        top: 320px
-    }
-    .kotak-2 {
-        position: absolute;
-        top: 320px;
-        left: 415px;
-    }
-    /* container content-1 */
-    .container-content-1 {
-        height: 1500px;
-        overflow-y: hidden;
-    }
-    .ket-2 {
-        position: absolute;
-        left: -4px;
-        font-size: 50px;
-        top: 760px;
-        text-align: center;
-    }
-    .ket-3 {
-        position: absolute;
-        left: 40px;
-        top: 900px;
-        text-align: center;
-    }
-    .ket-4 {
-        position: absolute;
-        left: 70px;
-        top: 1050px;
-    }
-    .tokopedia {
-        position: absolute;
-        left: 150px;
-        top: 1095px;
-    }
-    .shopee {
-        position: absolute;
-        left: 380px;
-        top: 1120px;
-    }
-    .tokopedia-1 {
-        position: absolute;
-        left: 120px;
-        top: 1240px;
-    }
-    .shopee-1 {
-        position: absolute;
-        left: 120px;
-        top: 1320px;
-    }
-    .container-content-3 {
-        height: 1500px;
-    }
-    .ket-5 {
-        position: absolute;
-        left: -380px;
-    }
-    .box-1 {
-        position: absolute;
-        left: 254px;
-    }
-    .baju-1 {
-        position: absolute;
-        left: 294px;
-    }
-    .box-2 {
-        position: absolute;
-        left: 257px;
-        top: 535px;
-    }
-    .github-1 {
-        position: absolute;
-        left: 299px;
-        top: 420px;
-    }
-    .box-3 {
-        position: absolute;
-        left: 257px;
-        top: 800px;
-    }
-    .warna {
-        position: absolute;
-        left: 298px;
-        top: 670px
-    }
-    .orang {
-        width: 900px;
-        position: absolute;
-        left: -110px;
-        top: 900px;
-    }
-    .surat-1 {
-        position: absolute;
-        left: 150px;
-        top: 1000px;
-    }
-    .surat-2 {
-        position: absolute;
-        left: 500px;
-        top: 1150px;
-    }
-    .surat-3 {
-        position: absolute;
-        left: 440px;
-        top: 950px;
-    }
-}
-
-
-/* responsive mobile */
-
-@media only screen and (max-width: 420px) {
-    .container-content-1 {
-        height: 1200px;
-        overflow-x: hidden;
-    }
-    .ket-1 {
-        font-size: 20px;
-        text-align: start;
-        position: absolute;
-        left: 20px;
-        top: 250px;
-    }
-    .header {
-        position: absolute;
-        left: 15px;
-        top: 160px;
-    }
-    .instagram-1 {
-        position: absolute;
-        top: 110px;
-    }
-    .facebook-1 {
-        position: absolute;
-        top: 111px;
-    }
-    .kotak-2 {
-        position: absolute;
-        left: 20px;
-        top: 420px;
-        left: 148px;
-    }
-    .gambar-1 img {
-        width: 520px;
-        position: absolute;
-        top: 300px;
-        left: -645px;
-    }
-    .help {
-        width: 500px;
-        position: absolute;
-        left: -30px;
-    }
-    .burger {
-        width: 90px;
-        position: absolute;
-        left: 280px;
-    }
-    .drink {
-        width: 120px;
-        position: absolute;
-        left: 8px;
-    }
-    .keju {
-        position: absolute;
-        left: 20px;
-        top: 400px;
-        width: 80px;
-    }
-    .belanjaan {
-        position: absolute;
-        left: 100px;
-        width: 100px;
-        left: 270px;
-        top: 420px;
-    }
-    .ket-2 {
-        position: absolute;
-        font-size: 30px;
-        left: 5px;
-        width: 400px;
-        top: 550px;
-    }
-    .ket-3 {
-        position: absolute;
-        top: 640px;
-        left: 14px;
-        font-size: 20px;
-        width: 380px;
-        top: 632px;
-    }
-    .ket-4 {
-        font-size: 20px;
-        left: 23px;
-        position: absolute;
-        top: 850px;
-    }
-    .tokopedia {
-        position: absolute;
-        left: 50px;
-        top: 880px;
-        top: 869px;
-    }
-    .tokopedia img {
-        width: 180px;
-    }
-    .shopee {
-        position: absolute;
-        left: 240px;
-        top: 890px;
-    }
-    .shopee img {
-        width: 53px;
-    }
-    .tokopedia-1 {
-        position: absolute;
-        left: 25px;
-        width: 350px;
-        top: 1000px;
-    }
-    .shopee-1 {
-        position: absolute;
-        width: 350px;
-        left: 25px;
-        top: 1100px;
-    }
-    .container-content-3 {
-        height: 1300px;
-    }
-    .ket-5 {
-        font-size: 35px;
-        position: absolute;
-        left: -420px;
-        width: 400px;
-        text-align: center;
-    }
-    .baju-1 {
-        left: 160px;
-    }
-    .box-1 {
-        left: 120px;
-    }
-    .github-1 {
-        left: 165px;
-    }
-    .box-2 {
-        left: 122px;
-    }
-    .warna {
-        left: 161px;
-    }
-    .box-3 {
-        left: 122px;
-    }
-    .surat-1 {
-        left: 10px;
-    }
-    .orang {
-        left: -170px;
-        width: 700px;
-    }
-    .surat-2 {
-        left: 295px;
-        top: 1070px
-    }
-    .surat-3 {
-        left: 265px;
-    }
-}
-
-@media only screen and ( max-width:360px) {
-    .header {
-        font-size: 60px;
-    }
-    .ket-1 {
-        width: 330px;
-        letter-spacing: .3px;
-        margin-left: -4px; 
-        margin-top: 3px;
-    }
-    .ket-4 {
-        font-size: 18px;
-        margin-left: -1px;
-        margin-top: 10px;
-    }
-    .ket-3 {
-        font-size: 20px;
-        width: 340px;
-        margin-left: -2px;
-    }
-    .ket-2 {
-        width: 355px;
-        font-size: 27px;
-        margin-left: -2px;
-    }
-    .ket-5 {
-        width: 350px;
-    }
-    .gambar-1 {
-        margin-top: -100px;
-    }
-    .gambar-1 img {
-        width: 475px;
-    }
-    .container-home {
-        height: 800px;
-    }
-    .icon-facebook {
-        margin-top: -100px;
-    }
-    .icon-instagram {
-        margin-top: -100px;
-    }
-    .help {
-        width: 450px;
-    }
-    .burger {
-        position: absolute;
-        left: 240px;
-        top: 50px;
-    }
-    .tokopedia {
-        margin-left: -15px;
-        margin-top: 10px;
-    }
-    .shopee {
-        margin-left: -17px;
-        margin-top: 10px;
-    }
-    .tokopedia-1 {
-        width: 320px;
-    }
-    .toko-1 {
-        margin-left: -25px;
-    }
-    .shopee-1 {
-        width: 320px;
-    }
-    .toko-2 {
-        margin-left: -25px;
-    }
-    .baju-1 {
-        margin-left: -13px;
-    }
-    .box-1 {
-        margin-left: -13px;
-    }
-    .github-1 {
-        margin-left: -15px;
-    }
-    .box-2 {
-        margin-left: -15px;
-    }
-    .warna {
-        margin-left: -10px;
-    }
-    .box-3 {
-        margin-left: -15px;
-    }
-}
+        * {
+            overflow-x: hidden;
+            font-family: 'Concert One', cursive;
+        }
+        /* style home */
+        
+        .gambar-awan {
+            width: 180px;
+            position: absolute;
+            top: 350px;
+            left: 80px;
+        }
+        
+        .gambar-awan-1 {
+            position: absolute;
+            width: 180px;
+            top: 180px;
+            left: 20px;
+        }
+        
+        .gambar-awan-2 {
+            position: absolute;
+            width: 180px;
+            top: 290px;
+            left: 320px;
+        }
+        
+        .gambar-awan-3 {
+            position: absolute;
+            width: 180px;
+            top: 180px;
+            left: 350px;
+        }
+        
+        .img-home {
+            width: 600px;
+            margin-top: 100px;
+            margin-left: 80px;
+        }
+        
+        .nama-store {
+            margin-top: 200px;
+            font-size: 60px;
+            color: #fff;
+            margin-left: 50px;
+        }
+        
+        .deskripsi-1 {
+            font-size: 25px;
+            color: #fff;
+            margin-left: 50px;
+        }
+        
+        .learnmore {
+            color: black;
+            text-decoration: none;
+            font-size: 24px;
+        }
+        
+        .pembungkus {
+            background-color: #fff;
+            width: 200px;
+            height: 40px;
+            border-radius: 20px;
+            text-align: center;
+            margin-top: 25px;
+            margin-left: 50px;
+        }
+        /* sytle about */
+        
+        .judul-about {
+            font-size: 65px;
+            color: #fff;
+            text-align: center;
+            margin-top: -20px;
+        }
+        
+        .keterangan-1 {
+            font-size: 24px;
+            color: #fff;
+            width: 500px;
+        }
+        
+        .keterangan-about {
+            font-size: 30px;
+            color: #fff;
+        }
+        /* style product */
+        
+        .judul-product {
+            font-size: 60px;
+            color: #fff;
+            text-align: center;
+            margin-top: -20px;
+        }
+        
+        .keterangan-2 {
+            font-size: 30px;
+            text-align: center;
+            width: 600px;
+            margin-left: 255px;
+            color: #fff;
+            margin-bottom: 100px;
+        }
+        
+        .shopee {
+            font-size: 50px;
+            color: #fff;
+            text-align: center;
+            margin-top: 80px;
+        }
+        
+        .deskripsi-shopee {
+            color: #fff;
+            font-size: 20px;
+            text-align: center;
+        }
+        
+        .visit-shopee {
+            color: #000;
+            text-decoration: none;
+            font-size: 25px;
+            margin-left: 37px;
+        }
+        
+        .img-shopee {
+            width: 500px;
+            margin-top: 60px;
+            margin-left: 30px;
+        }
+        
+        .pembungkus-1 {
+            background-color: #fff;
+            width: 150px;
+            height: 40px;
+            border-radius: 20px;
+            justify-content: center;
+            margin-left: 195px;
+        }
+        
+        .tokopedia {
+            font-size: 50px;
+            color: #fff;
+            text-align: center;
+            margin-top: 80px;
+        }
+        
+        .deskripsi-tokopedia {
+            font-size: 20px;
+            color: #fff;
+            text-align: center;
+        }
+        
+        .pembungkus-2 {
+            background-color: #fff;
+            width: 150px;
+            height: 40px;
+            border-radius: 20px;
+            margin-left: 200px;
+        }
+        
+        .visit-tokopedia {
+            color: #000;
+            font-size: 25px;
+            text-decoration: none;
+            margin-left: 37px;
+        }
+        
+        .img-tokopedia {
+            width: 500px;
+        }
+        
+        .jasapower-point {
+            font-size: 50px;
+            color: #fff;
+            text-align: center;
+            margin-top: 100px;
+        }
+        
+        .deskripsi-jasapowerpoint {
+            color: #fff;
+            font-size: 20px;
+            text-align: center;
+        }
+        
+        .pembungkus-3 {
+            background-color: #fff;
+            width: 150px;
+            height: 40px;
+            border-radius: 20px;
+            margin-left: 190px;
+        }
+        
+        .comingsoon-1 {
+            color: #000;
+            text-decoration: none;
+            font-size: 20px;
+            margin-left: 20px;
+            text-align: center;
+            line-height: 38px;
+        }
+        
+        .img-powerpoint {
+            width: 550px;
+            margin-left: 20px;
+        }
+        
+        .top-up {
+            font-size: 50px;
+            color: #fff;
+            text-align: center;
+            margin-top: 100px;
+            margin-left: 85px;
+        }
+        
+        .deskripsi-top-up {
+            text-align: center;
+            color: #fff;
+            font-size: 20px;
+            margin-left: 85px;
+        }
+        
+        .pembungkus-4 {
+            background-color: #fff;
+            width: 150px;
+            height: 40px;
+            border-radius: 20px;
+            margin-left: 245px;
+        }
+        
+        .comingsoon-2 {
+            text-decoration: none;
+            color: #000;
+            font-size: 20px;
+            line-height: 38px;
+            margin-left: 20px;
+        }
+        
+        .img-top-up {
+            width: 500px;
+            margin-top: 50px;
+        }
+        /* style contact */
+        
+        .gambar-contact {
+            width: 500px;
+        }
+        
+        .judul-contact {
+            font-size: 50px;
+            color: #fff;
+        }
+        
+        .deskripsi-contact {
+            color: #fff;
+            font-size: 20px;
+        }
+        
+        .instagram {
+            color: #fff;
+            font-size: 50px;
+            text-decoration: none;
+        }
+        
+        .whatsapp {
+            color: #fff;
+            font-size: 50px;
+        }
+        /* responsive webisite */
+        
+        @media (max-width: 768px) {
+            .img-home {
+                width: 370px;
+                margin-left: 10px;
+                margin-top: 80px;
+            }
+            .nama-store {
+                margin-top: -10px;
+                margin-left: 10px;
+            }
+            .deskripsi-1 {
+                margin-left: 10px;
+            }
+            .gambar-awan {
+                width: 100px;
+                top: 260px;
+                left: 10px;
+            }
+            .gambar-awan-1 {
+                width: 120px;
+                left: 120px;
+            }
+            .gambar-awan-2 {
+                width: 120px;
+                top: 222px;
+                left: 230px;
+            }
+            .gambar-awan-3 {
+                opacity: 0%;
+            }
+            .pembungkus {
+                margin-left: 10px;
+            }
+            .keterangan-about {
+                text-align: center;
+            }
+            .judul-about {
+                margin-top: 30px;
+            }
+            .keterangan-1 {
+                width: 320px;
+                text-align: center;
+            }
+            .gambar-about {
+                width: 400px;
+                margin-left: -35px;
+            }
+            .keterangan-2 {
+                width: 300px;
+                margin-left: 10px;
+                font-size: 20px;
+            }
+            .shopee {
+                margin-top: -10px;
+            }
+            .pembungkus-1 {
+                margin-left: 90px;
+            }
+            .img-shopee {
+                width: 300px;
+                margin-left: 10px;
+            }
+            .img-tokopedia {
+                opacity: 0%;
+                position: absolute;
+            }
+            .tokopedia {
+                margin-top: 50px;
+            }
+            .pembungkus-2 {
+                margin-left: 90px;
+                margin-top: 10px;
+            }
+            .pembungkus-3 {
+                margin-left: 90px;
+                margin-top: 30px;
+            }
+            .img-powerpoint {
+                width: 350px;
+                margin-left: -15px;
+                margin-top: 30px;
+            }
+            .img-top-up {
+                position: absolute;
+                opacity: 0%;
+            }
+            .top-up {
+                margin-left: 10px;
+                margin-top: 20px;
+            }
+            .deskripsi-top-up {
+                margin-left: 10px;
+            }
+            .pembungkus-4 {
+                margin-left: 90px;
+            }
+            .gambar-contact {
+                width: 300px;
+            }
+        }

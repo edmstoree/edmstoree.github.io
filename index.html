@@ -1,169 +1,236 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <title></title>
-    <meta charset="UTF-8">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- my style css -->
-    <link href="style.css" rel="stylesheet">
-
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- my style -->
+    <link rel="stylesheet" href="style.css">
     <!-- link font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,700;1,700&family=Concert+One&family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
 
-    <!-- link animasi muncul content -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-    <!-- link icons -->
-    <link rel="icon" href="aset/logo-5.png">
-    <title>edm_storee</title>
+    <title>EDM_STORE</title>
 </head>
 
 <body>
-    <!-- container home -->
-    <div class="container-home">
 
-        <!-- gambar -->
-        <div class="gambar-1">
-            <img src="aset/gambar-1.png" alt="">
-        </div>
-        <p class="ket-1" data-aos="fade-right" data-aos-duration="2000">
-            Welcome to edm_storee website Have a nice day and happy shopping
-        </p>
-
-        <!-- judul -->
-        <p class="header" data-aos="fade-right" data-aos-duration="1500">
-            EDM_STORE
-        </p>
-
-        <!-- icons -->
-        <div class="icon-instagram">
-            <a href="https://www.instagram.com/edm___store/?hl=id">
-                <ion-icon name="logo-instagram" class="instagram-1" data-aos="fade-up" data-aos-duration="600"></ion-icon>
-            </a>
-        </div>
-        <div class="icon-facebook">
-            <a href="https://www.facebook.com/iya.tidak.7731/">
-                <ion-icon name="logo-facebook" class="facebook-1" data-aos="fade-up" data-aos-duration="600"></ion-icon>
-            </a>
-        </div>
-
-    </div>
-
-    <!-- container-content-2 -->
-    <div class="container-content-1">
-        <div id="scene">
-            <div data-depth="0.3">
-                <img src="aset/burger.png" alt="" class="burger">
-            </div>
-            <div data-depth="0.4">
-                <img src="aset/drink.png" alt="" class="drink">
-            </div>
-            <div data-depth="0.4">
-                <img src="aset/keju.png" alt="" class="keju">
-            </div>
-            <div data-depth="0.3">
-                <img src="aset/belanjaan.png" alt="" class="belanjaan">
-            </div>
-            <div data-depth="0.01">
-                <img src="aset/instagram help.png" alt="" class="help">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="https://www.instagram.com/edm___store/?hl=id">EDM_STORE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#product">Product</a>
+                    <a class="nav-link" href="#contact">Contact</a>
+                </div>
             </div>
         </div>
+    </nav>
+    <!-- end navabar -->
 
-        <!-- ket-2 -->
-        <p class="ket-2" data-aos="fade-up" data-aos-duration="600">
-            Masih bingung milih barang pada saat belanja online ?
-        </p>
-        <p class="ket-3" data-aos="fade-up" data-aos-duration="600">
-            Tenang EDM_STOREE akan bantu kamu milih barang dengan harga terjangkau dan kualitas terbaik pastinya,jadi kamu tidak perlu khawatir lagi dengan masalah barang karna kami selalu memperhartikan rating toko dan product yang kami afiiliasikan tentu nya jadi
-            kamu tidak pelu khawatir
-        </p>
-        <p class="ket-4" data-aos="fade-up" data-aos-duration="600">
-            Cara Komplain jika pesanan tidak sesuai
-        </p>
-
-        <!-- icons logo platfrom -->
-        <div class="tokopedia">
-            <a href="https://www.tokopedia.com/help/article/st-0171-barang-sudah-diterima-namun-produk-berkendala">
-                <img src="aset/tokopedia-webiste.png" alt="" data-aos="fade-up" data-aos-duration="600">
-            </a>
-        </div>
-        <div class="shopee">
-            <a href="https://help.shopee.co.id/portal/article/72582-[Pengembalian-Barang%2FDana]-Apa-saja-dokumen-pendukung-yang-dapat-saya-kirimkan-untuk-bukti-pengajuan-pengembalian-barang%2Fdana-saya?previousPage=secondary%20category">
-                <img src="aset/shoope webiste.png" alt="" data-aos="fade-up" data-aos-duration="600">
-            </a>
-        </div>
-
-        <!-- link toko -->
-        <div class="tokopedia-1" data-aos="fade-right" data-aos-duration="600">
-            <img src="aset/tokopedia-webiste.png" alt="" class="tokopedia-2">
-            <a href="website tokopedia/index.html" class="toko-1">TOKOPEDIA</a>
-        </div>
-        <div class="shopee-1" data-aos="fade-right" data-aos-duration="600">
-            <img src="aset/shoope webiste.png" alt="" class="shopee-2">
-            <a href="webiste shopee/index.html" class="toko-2">SHOPEE</a>
-        </div>
-    </div>
-
-    <!-- container-content-3 -->
-    <div class="container-content-3">
-        <p class="ket-5">
-            Ingin berkontribusi di website EDM_STOREE
-        </p>
-
-        <!-- icon kontribusi -->
-        <div class="icon-contribusi">
-            <div class="box-1">
-                <a href="https://forms.gle/ULECfQnZfogUaz6f7" class="a1">Product</a>
-            </div>
-            <ion-icon name="shirt" class="baju-1" data-aos="fade-up" data-aos-duration="600"></ion-icon>
-            <div class="box-2">
-                <a href="https://github.com/edmstoree" class="a2">Website</a>
-            </div>
-            <ion-icon name="logo-github" class="github-1" data-aos="fade-up" data-aos-duration="600"></ion-icon>
-            <div class="box-3">
-                <a href="https://www.figma.com/file/F137l9PuDg9gZS7EAt2m0N/Websiite-Storee?node-id=0%3A1" class="a3">Design</a>
-            </div>
-            <ion-icon name="color-palette" class="warna" data-aos="fade-up" data-aos-duration="600"></ion-icon>
-        </div>
-
-        <!-- paralax-2 -->
-        <div id="scene-1">
-            <div data-depth="0.2">
-                <img src="aset/orang-1.png" alt="" class="orang">
-            </div>
-            <div data-depth="0.10">
-                <img src="aset/surat.png" alt="" class="surat-1">
-            </div>
-            <div data-depth="0.4">
-                <img src="aset/surat.png" alt="" class="surat-2">
-            </div>
-            <div data-depth="0.3">
-                <img src="aset/surat.png" alt="" class="surat-3">
+    <!-- Home -->
+    <section id="home" style="background-color:#21E5E0 ;">
+        <div class="container-home">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <img src="aset/satulagi.gif" alt="" class="gambar-awan">
+                    <img src="aset/satulagi.gif" alt="" class="gambar-awan-1">
+                    <img src="aset/satulagi.gif" alt="" class="gambar-awan-2">
+                    <img src="aset/satulagi.gif" alt="" class="gambar-awan-3">
+                    <img src="aset/1.png" alt="" class="img-home">
+                </div>
+                <div class="col-12 col-md-6">
+                    <p class="nama-store">
+                        EDM_STORE
+                    </p>
+                    <p class="deskripsi-1">
+                        Bingung dalam memilih barang di platform online shop,tenang kami akan bantu anda menyelesaikan masalah tersebut jadi kamu tidak perlu ragu lagi untuk berbelanja di platform online shop favorit kamu
+                    </p>
+                    <div class="pembungkus">
+                        <a href="#about" class="learnmore">
+                        Learn more >>
+                    </a>
+                    </div>
+                </div>
             </div>
         </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#00ABB3" fill-opacity="1" d="M0,160L30,154.7C60,149,120,139,180,154.7C240,171,300,213,360,234.7C420,256,480,256,540,229.3C600,203,660,149,720,138.7C780,128,840,160,900,160C960,160,1020,128,1080,96C1140,64,1200,32,1260,16C1320,0,1380,0,1410,0L1440,0L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
+    </section>
+    <!-- end Home-->
 
-    </div>
+    <!-- about -->
+    <section id="about" style="background-color:#00ABB3 ;">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="judul-about">About us</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <p class="keterangan-about">
+                        APA ITU EDM_STOREE
+                    </p>
+                    <p class="keterangan-1">
+                        EDM_STORE adalah webiste yang menyediakan jasa dan affiliator yang bertugas untuk mempromosikan barang atau product dari platform-platform online shop yang ada di indoneisa.Jadi kamu tidak kesusahan lagi dalam memilih product atau barang di platform online
+                        shop kamu. Karna di webiste inilah kami akan bantu kamu untuk memilihkan barang dengan kualitas,ratting serta harga yang terjangku untuk kamu.Dan kami akan membantu kamu yang baru berbelanja online untuk berbelanja dengan baik
+                        dan benar jadi kamu juga tidak perlu khawatir walaupun kamu baru pertama kali mencoba belanja online.
+                    </p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="aset/2.png" alt="" class="gambar-about">
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#2F8F9D" fill-opacity="1" d="M0,32L40,69.3C80,107,160,181,240,192C320,203,400,149,480,117.3C560,85,640,75,720,96C800,117,880,171,960,181.3C1040,192,1120,160,1200,160C1280,160,1360,192,1400,208L1440,224L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+    </section>
+    <!-- end about -->
+
+    <!-- product -->
+    <section id="product" style="background-color: #2F8F9D;">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="judul-product">Product</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="keterangan-2">
+                        Ini beberapa product dan jasa yang kami tawarkan kepada anda
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <p class="shopee">
+                        Shopee
+                    </p>
+                    <p class="deskripsi-shopee">
+                        Kami juga bergabung dalam program affiliate Shopee dan anda bisa melihat beberapa product yang kami rekomendasikan untuk anda
+                    </p>
+                    <div class="pembungkus-1">
+                        <a href="webiste shopee/index.html" class="visit-shopee">
+                        Visit >>
+                    </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="aset/3.png" alt="" class="img-shopee">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <img src="aset/4.png" alt="" class="img-tokopedia">
+                </div>
+                <div class="col-12 col-md-6">
+                    <p class="tokopedia">
+                        Tokopedia
+                    </p>
+                    <p class="deskripsi-tokopedia">
+                        Kami juga bergabung dalam program affiliate Tokopedia dan anda bisa melihat beberapa product yang kami rekomendasikan untuk anda
+                    </p>
+                    <div class="pembungkus-2">
+                        <a href="website tokopedia/index.html" class="visit-tokopedia">
+                        Visit >>
+                    </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <p class="jasapower-point">
+                        Jasa Powerpoint
+                    </p>
+                    <p class="deskripsi-jasapowerpoint">
+                        Kami juga menyedia Jasa pembuatan power point tanpa animasi slide dengan harga terjankau tentunya
+                    </p>
+                    <div class="pembungkus-3">
+                        <a href="" class="comingsoon-1">
+                        Coming Soon
+                    </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="aset/5.png" alt="" class="img-powerpoint">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <img src="aset/6.png" alt="" class="img-top-up">
+                </div>
+                <div class="col-12 col-md-6">
+                    <p class="top-up">
+                        Top-up
+                    </p>
+                    <p class="deskripsi-top-up">
+                        Kami juga menyediakan layanan top-up game dan e-wallet dengan praktis,mudah dan aman tentu nya
+                    </p>
+                    <div class="pembungkus-4">
+                        <a href="" class="comingsoon-2">
+                        Coming Soon
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#B4CDE6" fill-opacity="1" d="M0,128L40,117.3C80,107,160,85,240,101.3C320,117,400,171,480,165.3C560,160,640,96,720,85.3C800,75,880,117,960,133.3C1040,149,1120,139,1200,144C1280,149,1360,171,1400,181.3L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+    </section>
+    <!-- end product -->
+
+    <!-- contact -->
+    <section id="contact" style="background-color:#B4CDE6 ;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <img src="aset/7.png" alt="" class="gambar-contact">
+                </div>
+                <div class="col-12 col-md-6">
+                    <p class="judul-contact">
+                        Contact us
+                    </p>
+                    <p class="deskripsi-contact">
+                        Silahkan hubungi kami jika anda mengalami kesulitan dan kami akan langsung membantu anda
+                    </p>
+                    <a href="https://www.instagram.com/edm___store/?hl=id" class="instagram">
+                        <ion-icon name="logo-instagram" class="link-instagram"></ion-icon>
+                    </a>
+                    <a href="https://wa.me/6289654185961" class="whatsapp" class="link-whatsapp">
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end contact -->
+
+
+
+
+
+
+
+
+
+
 
     <!-- script icons -->
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-    <!-- paralax-2 -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
-    <script>
-        var scene = document.getElementById('scene');
-        var parallaxInstance = new Parallax(scene, {
-            relativeInput: true
-        });
-    </script>
-    <!-- link animasi muncul content -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
 </html>
